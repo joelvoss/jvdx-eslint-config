@@ -10,10 +10,10 @@ _(peer dependencies)_:
 
 ```bash
 # Using npm
-$ npm i -D eslint typescript eslint-config-jvdx
+$ npm i -D eslint typescript @jvdx/eslint-config-jvdx
 
 # Using yarn
-$ yarn add -D eslint typescript eslint-config-jvdx
+$ yarn add -D eslint typescript @jvdx/eslint-config-jvdx
 ```
 
 (2) Configure eslint in your `package.json`:
@@ -21,7 +21,7 @@ $ yarn add -D eslint typescript eslint-config-jvdx
 ```json
 {
   "eslintConfig": {
-    "extends": "eslint-config-jvdx"
+    "extends": "@jvdx/eslint-config-jvdx"
   }
 }
 ```
