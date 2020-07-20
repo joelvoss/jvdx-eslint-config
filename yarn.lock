@@ -93,6 +93,11 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@jvdx/prettier-config-jvdx@0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@jvdx/prettier-config-jvdx/-/prettier-config-jvdx-0.1.1.tgz#64c3833642fe0343a14ff2c50d242b4c7896af1c"
+  integrity sha512-uuPd3i92WuSNasE2ZuNsOk3GhYX9yBcWhPm6bI4Ucm7lKm3sgV4yR9rK5gGYiQUpkIwfU6wrA8z2RtoGmKDm3g==
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"
