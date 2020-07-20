@@ -25,6 +25,9 @@
     "eslint": "^7",
     "typescript": "^3.9.7"
   },
+  "files": [
+    "index.js"
+  ],
   "keywords": [
     "eslint",
     "eslintconfig",
