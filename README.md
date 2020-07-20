@@ -1,4 +1,4 @@
-# eslint-config-jvdx
+# @jvdx/eslint-config-jvdx
 
 jvdx's eslint configuration, with sensible defaults for ES6, React and
 Typescript projects.

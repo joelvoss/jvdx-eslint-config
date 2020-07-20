@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-jvdx",
+  "name": "@jvdx/eslint-config-jvdx",
   "version": "0.0.0",
   "description": "jvdx's eslint configuration",
   "author": "Joel Voss <mail@joelvoss.com>",
