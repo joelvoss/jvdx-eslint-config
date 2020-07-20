@@ -16,9 +16,6 @@ $ npm i -D eslint typescript eslint-config-jvdx
 $ yarn add -D eslint typescript eslint-config-jvdx
 ```
 
-> Notice: This config ships eslint as part of it's dependencies, so you don't
-> need to install it separately.
-
 (2) Configure eslint in your `package.json`:
 
 ```json
