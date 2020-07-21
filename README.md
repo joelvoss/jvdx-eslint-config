@@ -5,15 +5,14 @@ Typescript projects.
 
 ## Installation
 
-(1) Install this configuration as well as `eslint` and `typescript`
-_(peer dependencies)_:
+(1) Install this configuration as well as it's peer dependencies:
 
 ```bash
 # Using npm
-$ npm i -D eslint typescript @jvdx/eslint-config-jvdx
+$ npm i -D eslint prettier typescript @jvdx/eslint-config-jvdx
 
 # Using yarn
-$ yarn add -D eslint typescript @jvdx/eslint-config-jvdx
+$ yarn add -D eslint prettier typescript @jvdx/eslint-config-jvdx
 ```
 
 (2) Configure eslint in your `package.json`:
