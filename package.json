@@ -1,6 +1,6 @@
 {
   "name": "@jvdx/eslint-config-jvdx",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "jvdx's eslint configuration",
   "author": "Joel Voss <mail@joelvoss.com>",
   "license": "MIT",
@@ -18,14 +18,14 @@
     "read-pkg-up": "7.0.1"
   },
   "devDependencies": {
-    "prettier": "2.0.5",
     "eslint": "7.5.0",
+    "prettier": "2.0.5",
     "typescript": "3.9.7"
   },
   "peerDependencies": {
     "eslint": ">= 7",
-    "typescript": ">= 3.9",
-    "prettier": ">= 2"
+    "prettier": ">= 2",
+    "typescript": ">= 3.9"
   },
   "files": [
     "index.js"
