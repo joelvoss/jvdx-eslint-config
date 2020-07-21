@@ -26,6 +26,11 @@
     "eslint": "^7",
     "typescript": "^3.9.7"
   },
+  "peerDependenciesMeta": {
+    "typescript": {
+      "optional": true
+    }
+  },
   "files": [
     "index.js"
   ],
