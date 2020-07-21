@@ -23,13 +23,8 @@
     "typescript": "3.9.7"
   },
   "peerDependencies": {
-    "eslint": "^7",
-    "typescript": "^3.9.7"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
+    "eslint": ">= 7",
+    "typescript": ">= 3.9"
   },
   "files": [
     "index.js"
