@@ -19,8 +19,8 @@ $ yarn add -D eslint prettier typescript @jvdx/eslint-config-jvdx
 
 ```json
 {
-  "eslintConfig": {
-    "extends": "@jvdx/eslint-config-jvdx"
-  }
+	"eslintConfig": {
+		"extends": "@jvdx/eslint-config-jvdx"
+	}
 }
 ```
