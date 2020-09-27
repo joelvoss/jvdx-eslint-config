@@ -4,28 +4,33 @@
   "description": "jvdx's eslint configuration",
   "author": "Joel Voss <mail@joelvoss.com>",
   "license": "MIT",
+  "homepage": "https://github.com/joelvoss/eslint-config-jvdx",
+  "bugs": {
+    "url": "https://github.com/joelvoss/eslint-config-jvdx/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelvoss/eslint-config-jvdx.git"
+  },
   "main": "index.js",
+  "scripts": {
+    "test": "eslint index.js && echo 'pass'"
+  },
   "dependencies": {
-    "@jvdx/prettier-config-jvdx": "0.3.0",
-    "@typescript-eslint/eslint-plugin": "3.9.0",
-    "@typescript-eslint/parser": "3.9.0",
     "babel-eslint": "10.1.0",
-    "eslint-config-prettier": "6.11.0",
-    "eslint-plugin-import": "2.22.0",
+    "eslint-config-prettier": "6.12.0",
+    "eslint-plugin-compat": "3.8.0",
     "eslint-plugin-prettier": "3.1.4",
-    "eslint-plugin-react": "7.20.6",
-    "eslint-plugin-react-hooks": "4.0.8",
-    "read-pkg-up": "7.0.1"
+    "eslint-plugin-react": "7.21.2",
+    "eslint-plugin-react-hooks": "4.1.2"
   },
   "devDependencies": {
-    "eslint": "7.5.0",
-    "prettier": "2.0.5",
-    "typescript": "3.9.7"
+    "eslint": "^7.10.0",
+    "prettier": "^2.1.2"
   },
   "peerDependencies": {
-    "eslint": ">= 7",
-    "prettier": ">= 2",
-    "typescript": ">= 3.9"
+    "eslint": ">=5",
+    "prettier": ">=2"
   },
   "files": [
     "index.js"
@@ -37,5 +42,15 @@
     "eslint",
     "eslintconfig",
     "jvdx"
-  ]
+  ],
+  "eslintConfig": {
+    "extends": "eslint:recommended",
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
+    "env": {
+      "node": true
+    }
+  }
 }
