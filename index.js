@@ -1,3 +1,19 @@
+const readPkgUp = require("read-pkg-up");
+
+let hasReact = false;
+
+try {
+	const { packageJson } = readPkgUp.sync({ normalize: true });
+	const allDeps = Object.keys({
+		...packageJson.peerDependencies,
+		...packageJson.devDependencies,
+		...packageJson.dependencies,
+	});
+	hasReact = allDeps.includes("react");
+} catch (error) {
+	// ignore error
+}
+
 module.exports = {
 	parser: require.resolve("babel-eslint"),
 	extends: [
@@ -34,9 +50,13 @@ module.exports = {
 	settings: {
 		targets: ["last 2 versions"],
 		polyfills: ["fetch", "Promise"],
-		react: {
-			version: "detect",
-		},
+		...(hasReact
+			? {
+					react: {
+						version: "detect",
+					},
+				}
+			: {}),
 	},
 	rules: {
 		// prettier related rules
@@ -46,49 +66,53 @@ module.exports = {
 		"require-atomic-updates": "off",
 
 		// react-related rules
-		"react/jsx-boolean-value": [2, "never"],
-		"react/jsx-closing-bracket-location": 2,
-		"react/jsx-curly-spacing": 2,
-		"react/display-name": [1, { ignoreTranspilerName: false }],
-		"react/jsx-equals-spacing": 2,
-		"react/jsx-indent-props": [2, "tab"],
-		"react/jsx-max-props-per-line": [2, { maximum: 6 }],
-		"react/jsx-no-bind": [1, { ignoreRefs: true }],
-		"react/jsx-no-comment-textnodes": 2,
-		"react/jsx-no-duplicate-props": 2,
-		"react/jsx-no-target-blank": 2,
-		"react/jsx-no-undef": 2,
-		"react/jsx-pascal-case": 2,
-		"react/jsx-tag-spacing": [2, { beforeSelfClosing: "always" }],
-		"react/jsx-uses-react": 2,
-		"react/jsx-uses-vars": 2,
-		"react/jsx-wrap-multilines": 2,
-		"react/no-danger": 2,
-		"react/no-did-mount-set-state": 2,
-		"react/no-did-update-set-state": 2,
-		"react/no-find-dom-node": 2,
-		"react/no-is-mounted": 2,
-		"react/no-string-refs": 0,
-		"react/prefer-es6-class": 2,
-		"react/prefer-stateless-function": 1,
-		"react/require-render-return": 2,
-		"react/self-closing-comp": 2,
-		"react/sort-comp": [
-			1,
-			{
-				order: [
-					"properties",
-					"static-methods",
-					"everything-else",
-					"lifecycle",
-					"rendering",
-				],
-				groups: {
-					properties: ["state"],
-					rendering: ["/^render.+$/", "render"],
-				},
-			},
-		],
+		...(hasReact
+			? {
+					"react/jsx-boolean-value": [2, "never"],
+					"react/jsx-closing-bracket-location": 2,
+					"react/jsx-curly-spacing": 2,
+					"react/display-name": [1, { ignoreTranspilerName: false }],
+					"react/jsx-equals-spacing": 2,
+					"react/jsx-indent-props": [2, "tab"],
+					"react/jsx-max-props-per-line": [2, { maximum: 6 }],
+					"react/jsx-no-bind": [1, { ignoreRefs: true }],
+					"react/jsx-no-comment-textnodes": 2,
+					"react/jsx-no-duplicate-props": 2,
+					"react/jsx-no-target-blank": 2,
+					"react/jsx-no-undef": 2,
+					"react/jsx-pascal-case": 2,
+					"react/jsx-tag-spacing": [2, { beforeSelfClosing: "always" }],
+					"react/jsx-uses-react": 2,
+					"react/jsx-uses-vars": 2,
+					"react/jsx-wrap-multilines": 2,
+					"react/no-danger": 2,
+					"react/no-did-mount-set-state": 2,
+					"react/no-did-update-set-state": 2,
+					"react/no-find-dom-node": 2,
+					"react/no-is-mounted": 2,
+					"react/no-string-refs": 0,
+					"react/prefer-es6-class": 2,
+					"react/prefer-stateless-function": 1,
+					"react/require-render-return": 2,
+					"react/self-closing-comp": 2,
+					"react/sort-comp": [
+						1,
+						{
+							order: [
+								"properties",
+								"static-methods",
+								"everything-else",
+								"lifecycle",
+								"rendering",
+							],
+							groups: {
+								properties: ["state"],
+								rendering: ["/^render.+$/", "render"],
+							},
+						},
+					],
+				}
+			: {}),
 
 		// stylistic rules
 		"arrow-body-style": [2, "as-needed"],
