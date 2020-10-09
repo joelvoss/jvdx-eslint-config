@@ -1,4 +1,4 @@
-# @jvdx/eslint
+# @jvdx/eslint-config
 
 jvdx's eslint configuration, with sensible defaults for ES6 and React projects.
 
@@ -8,10 +8,10 @@ jvdx's eslint configuration, with sensible defaults for ES6 and React projects.
 
 ```bash
 # Using npm
-$ npm i -D eslint prettier @jvdx/eslint
+$ npm i -D eslint prettier @jvdx/eslint-config
 
 # Using yarn
-$ yarn add -D eslint prettier @jvdx/eslint
+$ yarn add -D eslint prettier @jvdx/eslint-config
 ```
 
 (2) Configure eslint in your `package.json`:
@@ -19,7 +19,7 @@ $ yarn add -D eslint prettier @jvdx/eslint
 ```json
 {
 	"eslintConfig": {
-		"extends": "@jvdx/eslint"
+		"extends": "@jvdx/eslint-config"
 	}
 }
 ```
