@@ -1,16 +1,16 @@
 {
-  "name": "@jvdx/eslint-config-jvdx",
+  "name": "@jvdx/eslint",
   "version": "1.0.1",
   "description": "jvdx's eslint configuration",
   "author": "Joel Voss <mail@joelvoss.com>",
   "license": "MIT",
-  "homepage": "https://github.com/joelvoss/eslint-config-jvdx",
+  "homepage": "https://github.com/joelvoss/jvdx-eslint",
   "bugs": {
-    "url": "https://github.com/joelvoss/eslint-config-jvdx/issues"
+    "url": "https://github.com/joelvoss/jvdx-eslint/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/joelvoss/eslint-config-jvdx.git"
+    "url": "git+https://github.com/joelvoss/jvdx-eslint.git"
   },
   "main": "index.js",
   "scripts": {
