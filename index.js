@@ -15,7 +15,7 @@ try {
 }
 
 module.exports = {
-	parser: require.resolve("babel-eslint"),
+	parser: require.resolve("@babel/eslint-parser"),
 	extends: [
 		"eslint:recommended",
 		"plugin:react-hooks/recommended",
