@@ -19,10 +19,9 @@ module.exports = {
 	extends: [
 		"eslint:recommended",
 		"plugin:react-hooks/recommended",
-		"prettier",
 		"plugin:prettier/recommended",
 	],
-	plugins: ["compat", "react", "prettier"],
+	plugins: ["compat", "react" ],
 	env: {
 		browser: true,
 		es6: true,
