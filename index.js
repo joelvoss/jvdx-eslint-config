@@ -202,7 +202,6 @@ module.exports = {
 				warnOnUnsupportedTypeScriptVersion: true,
 			},
 			plugins: ['@typescript-eslint'],
-			extends: ['prettier/@typescript-eslint'],
 			// If adding a typescript-eslint version of an existing ESLint rule,
       // make sure to disable the ESLint rule here.
 			rules: {
