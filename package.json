@@ -17,9 +17,9 @@
     "test": "eslint index.js && echo 'pass'"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.13.8",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
+    "@babel/eslint-parser": "^7.13.10",
+    "@typescript-eslint/eslint-plugin": "^4.18.0",
+    "@typescript-eslint/parser": "^4.18.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-compat": "^3.9.0",
     "eslint-plugin-prettier": "^3.3.1",
