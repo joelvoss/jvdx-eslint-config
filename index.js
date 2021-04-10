@@ -30,6 +30,7 @@ module.exports = {
 		node: true,
 	},
 	parserOptions: {
+		requireConfigFile: false,
 		ecmaVersion: 7,
 		sourceType: 'module',
 		ecmaFeatures: {
