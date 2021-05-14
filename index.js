@@ -130,7 +130,6 @@ module.exports = {
 		'jsx-quotes': [2, 'prefer-double'],
 		'key-spacing': 2,
 		'keyword-spacing': 2,
-		'lines-around-comment': 1,
 		'new-cap': 1,
 		'new-parens': 2,
 		'no-alert': 1,

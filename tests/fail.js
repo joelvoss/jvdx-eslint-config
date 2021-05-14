@@ -1,4 +1,6 @@
 function sayHello() {
+
+  /* comment */
   return 'Hello'
 }
 
