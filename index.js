@@ -161,7 +161,7 @@ module.exports = {
 		'no-trailing-spaces': [2, { skipBlankLines: true }],
 		'no-undef-init': 2,
 		'no-unneeded-ternary': 2,
-		'no-unused-vars': [2, { args: 'none', varsIgnorePattern: '^h$' }],
+		'no-unused-vars': [2, { args: 'none', varsIgnorePattern: '^_+$' }],
 		'no-useless-call': 2,
 		'no-useless-computed-key': 2,
 		'no-useless-concat': 2,
