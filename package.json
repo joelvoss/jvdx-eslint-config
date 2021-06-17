@@ -1,6 +1,6 @@
 {
   "name": "@jvdx/eslint-config",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "description": "jvdx's eslint configuration",
   "author": "Joel Voss <mail@joelvoss.com>",
   "license": "MIT",
