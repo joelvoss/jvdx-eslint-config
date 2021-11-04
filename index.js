@@ -40,6 +40,9 @@ module.exports = {
 			experimentalDecorators: true,
 			jsx: true,
 		},
+		babelOptions: {
+			presets: ['@babel/preset-react']
+		},
 	},
 	globals: {
 		sinon: true,
