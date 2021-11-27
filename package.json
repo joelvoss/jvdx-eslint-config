@@ -18,23 +18,23 @@
     "clean": "rm -rf node_modules"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.16.0",
+    "@babel/eslint-parser": "^7.16.3",
     "@babel/preset-react": "^7.16.0",
-    "@typescript-eslint/eslint-plugin": "^5.3.0",
-    "@typescript-eslint/parser": "^5.3.0",
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-compat": "^3.13.0",
+    "eslint-plugin-compat": "^4.0.0",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.26.1",
-    "eslint-plugin-react-hooks": "^4.2.0",
-    "readpkg-lit": "^1.2.2"
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "readpkg-lit": "^1.2.3"
   },
   "devDependencies": {
     "@babel/core": "^7.16.0",
     "@jvdx/prettier-config": "^0.3.4",
     "eslint": "^7.10.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4"
+    "prettier": "^2.5.0",
+    "typescript": "^4.5.2"
   },
   "peerDependencies": {
     "@babel/core": ">=7",
