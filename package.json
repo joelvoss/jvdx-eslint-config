@@ -18,21 +18,21 @@
     "clean": "rm -rf node_modules"
   },
   "dependencies": {
-    "@babel/eslint-parser": "^7.16.5",
+    "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.16.7",
-    "@typescript-eslint/eslint-plugin": "^5.10.0",
-    "@typescript-eslint/parser": "^5.10.0",
+    "@typescript-eslint/eslint-plugin": "^5.10.2",
+    "@typescript-eslint/parser": "^5.10.2",
     "eslint-config-prettier": "^8.3.0",
-    "eslint-plugin-compat": "^4.0.1",
+    "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-react": "^7.28.0",
     "eslint-plugin-react-hooks": "^4.3.0",
     "readpkg-lit": "^1.2.5"
   },
   "devDependencies": {
-    "@babel/core": "^7.16.10",
+    "@babel/core": "^7.17.0",
     "@jvdx/prettier-config": "^0.3.4",
-    "eslint": "^8.7.0",
+    "eslint": "^8.8.0",
     "prettier": "^2.5.1",
     "typescript": "^4.5.5"
   },
