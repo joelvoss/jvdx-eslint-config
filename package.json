@@ -20,21 +20,21 @@
   "dependencies": {
     "@babel/eslint-parser": "^7.17.0",
     "@babel/preset-react": "^7.16.7",
-    "@typescript-eslint/eslint-plugin": "^5.14.0",
-    "@typescript-eslint/parser": "^5.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.16.0",
+    "@typescript-eslint/parser": "^5.16.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-compat": "^4.0.2",
     "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-react": "^7.29.3",
+    "eslint-plugin-react": "^7.29.4",
     "eslint-plugin-react-hooks": "^4.3.0",
     "readpkg-lit": "^1.2.6"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.5",
+    "@babel/core": "^7.17.8",
     "@jvdx/prettier-config": "^0.3.4",
-    "eslint": "^8.11.0",
-    "prettier": "^2.5.1",
-    "typescript": "^4.6.2"
+    "eslint": "^8.12.0",
+    "prettier": "^2.6.1",
+    "typescript": "^4.6.3"
   },
   "peerDependencies": {
     "@babel/core": ">=7",
