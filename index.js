@@ -21,7 +21,7 @@ module.exports = {
 		'plugin:react-hooks/recommended',
 		'plugin:prettier/recommended',
 	],
-	plugins: ['compat', 'react'],
+	plugins: ['react'],
 	env: {
 		browser: true,
 		es6: true,
