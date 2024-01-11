@@ -1,0 +1,4333 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`typescript -> eslint recommended > for-direction 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 4,
+    "line": 2,
+    "message": "The update clause in this loop moves the variable in the wrong direction.",
+    "messageId": "incorrectDirection",
+    "nodeType": "ForStatement",
+    "ruleId": "for-direction",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-async-promise-executor 1`] = `
+[
+  {
+    "column": 25,
+    "endColumn": 30,
+    "endLine": 1,
+    "line": 1,
+    "message": "Promise executor functions should not be async.",
+    "messageId": "async",
+    "nodeType": "Identifier",
+    "ruleId": "no-async-promise-executor",
+    "severity": 2,
+  },
+  {
+    "column": 28,
+    "endColumn": 33,
+    "endLine": 11,
+    "line": 11,
+    "message": "Promise executor functions should not be async.",
+    "messageId": "async",
+    "nodeType": "Identifier",
+    "ruleId": "no-async-promise-executor",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-case-declarations 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 17,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 19,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 17,
+    "endLine": 12,
+    "line": 12,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "ClassDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-class-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 2,
+    "line": 2,
+    "message": "'A' is a class.",
+    "messageId": "class",
+    "nodeType": "Identifier",
+    "ruleId": "no-class-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-compare-neg-zero 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not use the '===' operator to compare against -0.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-compare-neg-zero",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-cond-assign 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 3,
+    "line": 3,
+    "message": "Expected a conditional expression and instead saw an assignment.",
+    "messageId": "missing",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-cond-assign",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 42,
+    "endLine": 11,
+    "line": 11,
+    "message": "Expected a conditional expression and instead saw an assignment.",
+    "messageId": "missing",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-cond-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-constant-condition 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 11,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 16,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "ClassExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 19,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "NewExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 21,
+    "line": 21,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "CallExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 25,
+    "line": 25,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Identifier",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 29,
+    "line": 29,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 9,
+    "endLine": 33,
+    "line": 33,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 37,
+    "line": 37,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 16,
+    "endLine": 43,
+    "line": 43,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 15,
+    "endLine": 45,
+    "line": 45,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 30,
+    "endLine": 47,
+    "line": 47,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "LogicalExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-control-regex 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected control character(s) in regular expression: \\x00.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected control character(s) in regular expression: \\x1f.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 33,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 34,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-debugger 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected 'debugger' statement.",
+    "messageId": "unexpected",
+    "nodeType": "DebuggerStatement",
+    "ruleId": "no-debugger",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-delete-var 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 2,
+    "line": 2,
+    "message": "Variables should not be deleted.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-delete-var",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-dupe-else-if 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 26,
+    "endLine": 3,
+    "line": 3,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "CallExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 13,
+    "line": 13,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "LogicalExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 19,
+    "endLine": 25,
+    "line": 25,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-duplicate-case 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 10,
+    "line": 9,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 21,
+    "line": 20,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 32,
+    "line": 31,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-empty 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 2,
+    "endLine": 2,
+    "line": 1,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            10,
+            11,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 13,
+    "endColumn": 2,
+    "endLine": 5,
+    "line": 4,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            27,
+            28,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 8,
+    "line": 7,
+    "message": "Empty switch statement.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 2,
+    "endLine": 14,
+    "line": 12,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            86,
+            88,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 11,
+    "endColumn": 2,
+    "endLine": 16,
+    "line": 14,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            99,
+            101,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-empty-character-class 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 1,
+    "line": 1,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 2,
+    "line": 2,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 4,
+    "line": 4,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 28,
+    "endLine": 5,
+    "line": 5,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 7,
+    "line": 7,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 33,
+    "endLine": 8,
+    "line": 8,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 10,
+    "line": 10,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 33,
+    "endLine": 11,
+    "line": 11,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 27,
+    "endLine": 13,
+    "line": 13,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-empty-pattern 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 7,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 7,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 11,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 11,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 16,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 16,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 20,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 20,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-ex-assign 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not assign to the exception parameter.",
+    "messageId": "unexpected",
+    "nodeType": "Identifier",
+    "ruleId": "no-ex-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-extra-boolean-cast 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 17,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        11,
+        16,
+      ],
+      "text": "bar",
+    },
+    "line": 1,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 16,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        29,
+        34,
+      ],
+      "text": "bar",
+    },
+    "line": 3,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 24,
+    "endLine": 5,
+    "fix": {
+      "range": [
+        67,
+        72,
+      ],
+      "text": "bar",
+    },
+    "line": 5,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 23,
+    "endColumn": 28,
+    "endLine": 7,
+    "fix": {
+      "range": [
+        98,
+        103,
+      ],
+      "text": "bar",
+    },
+    "line": 7,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 9,
+    "fix": {
+      "range": [
+        111,
+        116,
+      ],
+      "text": "foo",
+    },
+    "line": 9,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 17,
+    "endLine": 13,
+    "fix": {
+      "range": [
+        138,
+        150,
+      ],
+      "text": "foo",
+    },
+    "line": 13,
+    "message": "Redundant Boolean call.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 13,
+    "endLine": 17,
+    "fix": {
+      "range": [
+        175,
+        180,
+      ],
+      "text": "foo",
+    },
+    "line": 17,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 23,
+    "fix": {
+      "range": [
+        223,
+        235,
+      ],
+      "text": "foo",
+    },
+    "line": 23,
+    "message": "Redundant Boolean call.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 13,
+    "endLine": 25,
+    "fix": {
+      "range": [
+        246,
+        251,
+      ],
+      "text": "foo",
+    },
+    "line": 25,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-fallthrough 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 21,
+    "endLine": 6,
+    "line": 5,
+    "message": "Expected a 'break' statement before 'case'.",
+    "messageId": "case",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-fallthrough",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-global-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 7,
+    "endLine": 1,
+    "line": 1,
+    "message": "Read-only global 'Object' should not be modified.",
+    "messageId": "globalShouldNotBeModified",
+    "nodeType": "Identifier",
+    "ruleId": "no-global-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 2,
+    "line": 2,
+    "message": "Read-only global 'undefined' should not be modified.",
+    "messageId": "globalShouldNotBeModified",
+    "nodeType": "Identifier",
+    "ruleId": "no-global-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-inner-declarations 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 29,
+    "endLine": 2,
+    "line": 2,
+    "message": "Move function declaration to program root.",
+    "messageId": "moveDeclToRoot",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-inner-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 36,
+    "endLine": 7,
+    "line": 7,
+    "message": "Move function declaration to function body root.",
+    "messageId": "moveDeclToRoot",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-inner-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 24,
+    "endLine": 11,
+    "line": 11,
+    "message": "Move function declaration to program root.",
+    "messageId": "moveDeclToRoot",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-inner-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 37,
+    "endLine": 16,
+    "line": 16,
+    "message": "Move function declaration to class static block body root.",
+    "messageId": "moveDeclToRoot",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-inner-declarations",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-invalid-regexp 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 1,
+    "line": 1,
+    "message": "Invalid regular expression: /[/: Unterminated character class.",
+    "messageId": "regexMessage",
+    "nodeType": "CallExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 3,
+    "line": 3,
+    "message": "Invalid flags supplied to RegExp constructor 'z'.",
+    "messageId": "regexMessage",
+    "nodeType": "CallExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 5,
+    "line": 5,
+    "message": "Invalid regular expression: /\\/: \\ at end of pattern.",
+    "messageId": "regexMessage",
+    "nodeType": "NewExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-irregular-whitespace 1`] = `
+[
+  {
+    "column": 21,
+    "endColumn": 22,
+    "endLine": 13,
+    "line": 13,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 18,
+    "endLine": 18,
+    "line": 18,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 20,
+    "endLine": 39,
+    "line": 39,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected combined character in character class.",
+    "messageId": "combiningClass",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected combined character in character class.",
+    "messageId": "combiningClass",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected modified Emoji in character class.",
+    "messageId": "emojiModifier",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected national flag in character class.",
+    "messageId": "regionalIndicatorSymbol",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected joined character sequence in character class.",
+    "messageId": "zwj",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected surrogate pair in character class. Use 'u' flag.",
+    "messageId": "surrogatePairWithoutUFlag",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add unicode 'u' flag to regex.",
+        "fix": {
+          "range": [
+            73,
+            73,
+          ],
+          "text": "u",
+        },
+        "messageId": "suggestUnicodeFlag",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-nonoctal-decimal-escape 1`] = `
+[
+  {
+    "column": 1,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: Escape sequence '\\8' is not allowed.",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-octal 1`] = `
+[
+  {
+    "column": 10,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: Octal literals are not allowed. Use the syntax '0o71'.",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-prototype-builtins 1`] = `
+[
+  {
+    "column": 26,
+    "endColumn": 40,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "hasOwnProperty",
+        },
+        "desc": "Call Object.prototype.hasOwnProperty explicitly.",
+        "fix": {
+          "range": [
+            21,
+            40,
+          ],
+          "text": "Object.prototype.hasOwnProperty.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+  {
+    "column": 28,
+    "endColumn": 41,
+    "endLine": 3,
+    "line": 3,
+    "message": "Do not access Object.prototype method 'isPrototypeOf' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "isPrototypeOf",
+        },
+        "desc": "Call Object.prototype.isPrototypeOf explicitly.",
+        "fix": {
+          "range": [
+            72,
+            90,
+          ],
+          "text": "Object.prototype.isPrototypeOf.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+  {
+    "column": 27,
+    "endColumn": 47,
+    "endLine": 5,
+    "line": 5,
+    "message": "Do not access Object.prototype method 'propertyIsEnumerable' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "propertyIsEnumerable",
+        },
+        "desc": "Call Object.prototype.propertyIsEnumerable explicitly.",
+        "fix": {
+          "range": [
+            119,
+            144,
+          ],
+          "text": "Object.prototype.propertyIsEnumerable.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-regex-spaces 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 21,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        13,
+        16,
+      ],
+      "text": " {3}",
+    },
+    "line": 1,
+    "message": "Spaces are hard to count. Use {3}.",
+    "messageId": "multipleSpaces",
+    "nodeType": "Literal",
+    "ruleId": "no-regex-spaces",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 33,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        46,
+        49,
+      ],
+      "text": " {3}",
+    },
+    "line": 2,
+    "message": "Spaces are hard to count. Use {3}.",
+    "messageId": "multipleSpaces",
+    "nodeType": "NewExpression",
+    "ruleId": "no-regex-spaces",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-self-assign 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "'a' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 15,
+    "endLine": 3,
+    "line": 3,
+    "message": "'b' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 20,
+    "endColumn": 21,
+    "endLine": 5,
+    "line": 5,
+    "message": "'b' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 13,
+    "endLine": 7,
+    "line": 7,
+    "message": "'a' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 9,
+    "line": 9,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 10,
+    "line": 10,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 11,
+    "line": 11,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-shadow-restricted-names 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 13,
+    "endLine": 1,
+    "line": 1,
+    "message": "Shadowing of global property 'NaN'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 3,
+    "line": 3,
+    "message": "Shadowing of global property 'Infinity'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 5,
+    "line": 5,
+    "message": "Shadowing of global property 'undefined'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-sparse-arrays 1`] = `
+[
+  {
+    "column": 13,
+    "endColumn": 16,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected comma in middle of array.",
+    "messageId": "unexpectedSparseArray",
+    "nodeType": "ArrayExpression",
+    "ruleId": "no-sparse-arrays",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 32,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected comma in middle of array.",
+    "messageId": "unexpectedSparseArray",
+    "nodeType": "ArrayExpression",
+    "ruleId": "no-sparse-arrays",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-unsafe-finally 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 16,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unsafe usage of ReturnStatement.",
+    "messageId": "unsafeUsage",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-unsafe-finally",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unsafe usage of ThrowStatement.",
+    "messageId": "unsafeUsage",
+    "nodeType": "ThrowStatement",
+    "ruleId": "no-unsafe-finally",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-unsafe-optional-chaining 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 9,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 9,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 17,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 15,
+    "line": 15,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 15,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 19,
+    "line": 19,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 6,
+    "endColumn": 14,
+    "endLine": 21,
+    "line": 21,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 23,
+    "line": 23,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 25,
+    "line": 25,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 6,
+    "endColumn": 14,
+    "endLine": 27,
+    "line": 27,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 29,
+    "line": 29,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 21,
+    "endLine": 31,
+    "line": 31,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 33,
+    "line": 33,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 20,
+    "endLine": 35,
+    "line": 35,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 37,
+    "line": 37,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 25,
+    "endColumn": 33,
+    "endLine": 39,
+    "line": 39,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 35,
+    "endLine": 42,
+    "line": 42,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 43,
+    "line": 43,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 44,
+    "line": 44,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-unused-labels 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        3,
+      ],
+      "text": "",
+    },
+    "line": 1,
+    "message": "'A:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        17,
+        20,
+      ],
+      "text": "",
+    },
+    "line": 3,
+    "message": "'B:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 7,
+    "fix": {
+      "range": [
+        36,
+        39,
+      ],
+      "text": "",
+    },
+    "line": 7,
+    "message": "'C:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-useless-backreference 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 1,
+    "line": 1,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Backreference '\\1' will be ignored. It references group '(c)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 8,
+    "endLine": 7,
+    "line": 7,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 9,
+    "line": 9,
+    "message": "Backreference '\\2' will be ignored. It references group '(b)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "CallExpression",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 11,
+    "line": 11,
+    "message": "Backreference '\\2' will be ignored. It references group '(c)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 13,
+    "line": 13,
+    "message": "Backreference '\\k<foo>' will be ignored. It references group '(?<foo>a)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 15,
+    "line": 15,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears before in the same lookbehind.",
+    "messageId": "backward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 17,
+    "line": 17,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears before in the same lookbehind.",
+    "messageId": "backward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 19,
+    "line": 19,
+    "message": "Backreference '\\1' will be ignored. It references group '(\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "NewExpression",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 21,
+    "line": 21,
+    "message": "Backreference '\\1' will be ignored. It references group '((a)\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 18,
+    "endLine": 23,
+    "line": 23,
+    "message": "Backreference '\\1' will be ignored. It references group '(?<foo>(.)b\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 25,
+    "line": 25,
+    "message": "Backreference '\\1' will be ignored. It references group '(b)' which is in a negative lookaround.",
+    "messageId": "intoNegativeLookaround",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 27,
+    "line": 27,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in a negative lookaround.",
+    "messageId": "intoNegativeLookaround",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-useless-catch 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 5,
+    "line": 1,
+    "message": "Unnecessary try/catch wrapper.",
+    "messageId": "unnecessaryCatch",
+    "nodeType": "TryStatement",
+    "ruleId": "no-useless-catch",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 2,
+    "endLine": 11,
+    "line": 9,
+    "message": "Unnecessary catch clause.",
+    "messageId": "unnecessaryCatchClause",
+    "nodeType": "CatchClause",
+    "ruleId": "no-useless-catch",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-useless-escape 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unnecessary escape character: \\'.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            1,
+            2,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            1,
+            1,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            7,
+            8,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            7,
+            7,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unnecessary escape character: \\#.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            13,
+            14,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            13,
+            13,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unnecessary escape character: \\e.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            19,
+            20,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            19,
+            19,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            25,
+            26,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            25,
+            25,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            31,
+            32,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            31,
+            31,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 10,
+    "endColumn": 11,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            39,
+            40,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            39,
+            39,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unnecessary escape character: \\#.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            45,
+            46,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            45,
+            45,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unnecessary escape character: \\!.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            56,
+            57,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            56,
+            56,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unnecessary escape character: \\@.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            62,
+            63,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            62,
+            62,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unnecessary escape character: \\[.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            69,
+            70,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            69,
+            69,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 6,
+    "endColumn": 7,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unnecessary escape character: \\-.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            80,
+            81,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            80,
+            80,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-var 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 13,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        3,
+      ],
+      "text": "let",
+    },
+    "line": 1,
+    "message": "Unexpected var, use let or const instead.",
+    "messageId": "unexpectedVar",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-var",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        13,
+        16,
+      ],
+      "text": "let",
+    },
+    "line": 2,
+    "message": "Unexpected var, use let or const instead.",
+    "messageId": "unexpectedVar",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-var",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > no-with 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "line": 1,
+    "message": "Unexpected use of 'with' statement.",
+    "messageId": "unexpectedWith",
+    "nodeType": "WithStatement",
+    "ruleId": "no-with",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > prefer-rest-params 1`] = `
+[
+  {
+    "column": 15,
+    "endColumn": 24,
+    "endLine": 2,
+    "line": 2,
+    "message": "Use the rest parameters instead of 'arguments'.",
+    "messageId": "preferRestParams",
+    "nodeType": "Identifier",
+    "ruleId": "prefer-rest-params",
+    "severity": 2,
+  },
+  {
+    "column": 41,
+    "endColumn": 50,
+    "endLine": 6,
+    "line": 6,
+    "message": "Use the rest parameters instead of 'arguments'.",
+    "messageId": "preferRestParams",
+    "nodeType": "Identifier",
+    "ruleId": "prefer-rest-params",
+    "severity": 2,
+  },
+  {
+    "column": 28,
+    "endColumn": 37,
+    "endLine": 11,
+    "line": 11,
+    "message": "Use the rest parameters instead of 'arguments'.",
+    "messageId": "preferRestParams",
+    "nodeType": "Identifier",
+    "ruleId": "prefer-rest-params",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > prefer-spread 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "Use the spread operator instead of '.apply()'.",
+    "messageId": "preferSpread",
+    "nodeType": "CallExpression",
+    "ruleId": "prefer-spread",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 2,
+    "line": 2,
+    "message": "Use the spread operator instead of '.apply()'.",
+    "messageId": "preferSpread",
+    "nodeType": "CallExpression",
+    "ruleId": "prefer-spread",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 25,
+    "endLine": 3,
+    "line": 3,
+    "message": "Use the spread operator instead of '.apply()'.",
+    "messageId": "preferSpread",
+    "nodeType": "CallExpression",
+    "ruleId": "prefer-spread",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > require-yield 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "line": 1,
+    "message": "This generator function does not have 'yield'.",
+    "messageId": "missingYield",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "require-yield",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > use-isnan 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 1,
+    "line": 1,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 5,
+    "line": 5,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 13,
+    "line": 13,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> eslint recommended > valid-typeof 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 1,
+    "line": 1,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 26,
+    "endLine": 2,
+    "line": 2,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 23,
+    "endLine": 3,
+    "line": 3,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 26,
+    "endLine": 4,
+    "line": 4,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/ban-ts-comment 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 40,
+    "endLine": 2,
+    "line": 2,
+    "message": "Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.",
+    "messageId": "tsIgnoreInsteadOfExpectError",
+    "nodeType": "Line",
+    "ruleId": "@typescript-eslint/ban-ts-comment",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace "@ts-ignore" with "@ts-expect-error".",
+        "fix": {
+          "range": [
+            15,
+            52,
+          ],
+          "text": "// @ts-expect-error: Unreachable code error",
+        },
+        "messageId": "replaceTsIgnoreWithTsExpectError",
+      },
+    ],
+  },
+  {
+    "column": 3,
+    "endColumn": 5,
+    "endLine": 8,
+    "line": 6,
+    "message": "Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.",
+    "messageId": "tsIgnoreInsteadOfExpectError",
+    "nodeType": "Block",
+    "ruleId": "@typescript-eslint/ban-ts-comment",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace "@ts-ignore" with "@ts-expect-error".",
+        "fix": {
+          "range": [
+            94,
+            138,
+          ],
+          "text": "/*
+  @ts-expect-error: Unreachable code error
+  */",
+        },
+        "messageId": "replaceTsIgnoreWithTsExpectError",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/ban-types 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        56,
+        62,
+      ],
+      "text": "string",
+    },
+    "line": 2,
+    "message": "Don't use \`String\` as a type. Use string instead",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 20,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        84,
+        91,
+      ],
+      "text": "boolean",
+    },
+    "line": 3,
+    "message": "Don't use \`Boolean\` as a type. Use boolean instead",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 4,
+    "fix": {
+      "range": [
+        111,
+        117,
+      ],
+      "text": "number",
+    },
+    "line": 4,
+    "message": "Don't use \`Number\` as a type. Use number instead",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 19,
+    "endLine": 5,
+    "fix": {
+      "range": [
+        135,
+        141,
+      ],
+      "text": "symbol",
+    },
+    "line": 5,
+    "message": "Don't use \`Symbol\` as a type. Use symbol instead",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 21,
+    "endLine": 6,
+    "fix": {
+      "range": [
+        173,
+        179,
+      ],
+      "text": "bigint",
+    },
+    "line": 6,
+    "message": "Don't use \`BigInt\` as a type. Use bigint instead",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 21,
+    "endLine": 9,
+    "line": 9,
+    "message": "Don't use \`Function\` as a type. The \`Function\` type accepts any function-like value.
+It provides no type safety when calling the function, which can be a common source of bugs.
+It also accepts things like class declarations, which will throw at runtime as they will not be called with \`new\`.
+If you are expecting the function to accept certain arguments, you should explicitly define the function shape.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 23,
+    "endLine": 12,
+    "line": 12,
+    "message": "Don't use \`Object\` as a type. The \`Object\` type actually means "any non-nullish value", so it is marginally better than \`unknown\`.
+- If you want a type meaning "any object", you probably want \`object\` instead.
+- If you want a type meaning "any value", you probably want \`unknown\` instead.
+- If you really want a type meaning "any non-nullish value", you probably want \`NonNullable<unknown>\` instead.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "object",
+        },
+        "desc": "Replace \`Object\` with \`object\`.",
+        "fix": {
+          "range": [
+            292,
+            298,
+          ],
+          "text": "object",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "unknown",
+        },
+        "desc": "Replace \`Object\` with \`unknown\`.",
+        "fix": {
+          "range": [
+            292,
+            298,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "NonNullable<unknown>",
+        },
+        "desc": "Replace \`Object\` with \`NonNullable<unknown>\`.",
+        "fix": {
+          "range": [
+            292,
+            298,
+          ],
+          "text": "NonNullable<unknown>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+    ],
+  },
+  {
+    "column": 19,
+    "endColumn": 25,
+    "endLine": 13,
+    "line": 13,
+    "message": "Don't use \`Object\` as a type. The \`Object\` type actually means "any non-nullish value", so it is marginally better than \`unknown\`.
+- If you want a type meaning "any object", you probably want \`object\` instead.
+- If you want a type meaning "any value", you probably want \`unknown\` instead.
+- If you really want a type meaning "any non-nullish value", you probably want \`NonNullable<unknown>\` instead.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "object",
+        },
+        "desc": "Replace \`Object\` with \`object\`.",
+        "fix": {
+          "range": [
+            323,
+            329,
+          ],
+          "text": "object",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "unknown",
+        },
+        "desc": "Replace \`Object\` with \`unknown\`.",
+        "fix": {
+          "range": [
+            323,
+            329,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "Object",
+          "replacement": "NonNullable<unknown>",
+        },
+        "desc": "Replace \`Object\` with \`NonNullable<unknown>\`.",
+        "fix": {
+          "range": [
+            323,
+            329,
+          ],
+          "text": "NonNullable<unknown>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+    ],
+  },
+  {
+    "column": 15,
+    "endColumn": 17,
+    "endLine": 15,
+    "line": 15,
+    "message": "Don't use \`{}\` as a type. \`{}\` actually means "any non-nullish value".
+- If you want a type meaning "any object", you probably want \`object\` instead.
+- If you want a type meaning "any value", you probably want \`unknown\` instead.
+- If you want a type meaning "empty object", you probably want \`Record<string, never>\` instead.
+- If you really want a type meaning "any non-nullish value", you probably want \`NonNullable<unknown>\` instead.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "TSTypeLiteral",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "object",
+        },
+        "desc": "Replace \`{}\` with \`object\`.",
+        "fix": {
+          "range": [
+            364,
+            366,
+          ],
+          "text": "object",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "unknown",
+        },
+        "desc": "Replace \`{}\` with \`unknown\`.",
+        "fix": {
+          "range": [
+            364,
+            366,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "Record<string, never>",
+        },
+        "desc": "Replace \`{}\` with \`Record<string, never>\`.",
+        "fix": {
+          "range": [
+            364,
+            366,
+          ],
+          "text": "Record<string, never>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "NonNullable<unknown>",
+        },
+        "desc": "Replace \`{}\` with \`NonNullable<unknown>\`.",
+        "fix": {
+          "range": [
+            364,
+            366,
+          ],
+          "text": "NonNullable<unknown>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+    ],
+  },
+  {
+    "column": 15,
+    "endColumn": 17,
+    "endLine": 16,
+    "line": 16,
+    "message": "Don't use \`{}\` as a type. \`{}\` actually means "any non-nullish value".
+- If you want a type meaning "any object", you probably want \`object\` instead.
+- If you want a type meaning "any value", you probably want \`unknown\` instead.
+- If you want a type meaning "empty object", you probably want \`Record<string, never>\` instead.
+- If you really want a type meaning "any non-nullish value", you probably want \`NonNullable<unknown>\` instead.",
+    "messageId": "bannedTypeMessage",
+    "nodeType": "TSTypeLiteral",
+    "ruleId": "@typescript-eslint/ban-types",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "object",
+        },
+        "desc": "Replace \`{}\` with \`object\`.",
+        "fix": {
+          "range": [
+            386,
+            388,
+          ],
+          "text": "object",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "unknown",
+        },
+        "desc": "Replace \`{}\` with \`unknown\`.",
+        "fix": {
+          "range": [
+            386,
+            388,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "Record<string, never>",
+        },
+        "desc": "Replace \`{}\` with \`Record<string, never>\`.",
+        "fix": {
+          "range": [
+            386,
+            388,
+          ],
+          "text": "Record<string, never>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+      {
+        "data": {
+          "name": "{}",
+          "replacement": "NonNullable<unknown>",
+        },
+        "desc": "Replace \`{}\` with \`NonNullable<unknown>\`.",
+        "fix": {
+          "range": [
+            386,
+            388,
+          ],
+          "text": "NonNullable<unknown>",
+        },
+        "messageId": "bannedTypeReplacement",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-array-constructor 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 15,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        14,
+      ],
+      "text": "[0, 1, 2]",
+    },
+    "line": 1,
+    "message": "The array literal notation [] is preferable.",
+    "messageId": "useLiteral",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-array-constructor",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        16,
+        34,
+      ],
+      "text": "[0, 1, 2]",
+    },
+    "line": 2,
+    "message": "The array literal notation [] is preferable.",
+    "messageId": "useLiteral",
+    "nodeType": "NewExpression",
+    "ruleId": "@typescript-eslint/no-array-constructor",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-duplicate-enum-values 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 8,
+    "endLine": 3,
+    "line": 3,
+    "message": "Duplicate enum member value 0.",
+    "messageId": "duplicateValue",
+    "nodeType": "TSEnumMember",
+    "ruleId": "@typescript-eslint/no-duplicate-enum-values",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 10,
+    "endLine": 8,
+    "line": 8,
+    "message": "Duplicate enum member value A.",
+    "messageId": "duplicateValue",
+    "nodeType": "TSEnumMember",
+    "ruleId": "@typescript-eslint/no-duplicate-enum-values",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-explicit-any 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 15,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            11,
+            14,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            11,
+            14,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 14,
+    "endColumn": 17,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            44,
+            47,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            44,
+            47,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 20,
+    "endColumn": 23,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            87,
+            90,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            87,
+            90,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 20,
+    "endColumn": 23,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            129,
+            132,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            129,
+            132,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 20,
+    "endColumn": 23,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            156,
+            159,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            156,
+            159,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 26,
+    "endColumn": 29,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            191,
+            194,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            191,
+            194,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 32,
+    "endColumn": 35,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            231,
+            234,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            231,
+            234,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 30,
+    "endColumn": 33,
+    "endLine": 15,
+    "line": 15,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            270,
+            273,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            270,
+            273,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 30,
+    "endColumn": 33,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            317,
+            320,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            317,
+            320,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+  {
+    "column": 43,
+    "endColumn": 46,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unexpected any. Specify a different type.",
+    "messageId": "unexpectedAny",
+    "nodeType": "TSAnyKeyword",
+    "ruleId": "@typescript-eslint/no-explicit-any",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Use \`unknown\` instead, this will force you to explicitly, and safely assert the type is correct.",
+        "fix": {
+          "range": [
+            330,
+            333,
+          ],
+          "text": "unknown",
+        },
+        "messageId": "suggestUnknown",
+      },
+      {
+        "desc": "Use \`never\` instead, this is useful when instantiating generic type parameters that you don't need to know the type of.",
+        "fix": {
+          "range": [
+            330,
+            333,
+          ],
+          "text": "never",
+        },
+        "messageId": "suggestNever",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-extra-non-null-assertion 1`] = `
+[
+  {
+    "column": 13,
+    "endColumn": 18,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        58,
+        59,
+      ],
+      "text": "",
+    },
+    "line": 2,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 17,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        57,
+        58,
+      ],
+      "text": "",
+    },
+    "line": 2,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 29,
+    "endLine": 5,
+    "fix": {
+      "range": [
+        135,
+        136,
+      ],
+      "text": "",
+    },
+    "line": 5,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 28,
+    "endLine": 5,
+    "fix": {
+      "range": [
+        134,
+        135,
+      ],
+      "text": "",
+    },
+    "line": 5,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 14,
+    "endLine": 9,
+    "fix": {
+      "range": [
+        191,
+        192,
+      ],
+      "text": "",
+    },
+    "line": 9,
+    "message": "Forbidden extra non-null assertion.",
+    "messageId": "noExtraNonNullAssertion",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-extra-non-null-assertion",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-loss-of-precision 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 32,
+    "endLine": 1,
+    "line": 1,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 42,
+    "endLine": 2,
+    "line": 2,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 38,
+    "endLine": 3,
+    "line": 3,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 37,
+    "endLine": 4,
+    "line": 4,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 27,
+    "endLine": 5,
+    "line": 5,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 29,
+    "endLine": 6,
+    "line": 6,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "@typescript-eslint/no-loss-of-precision",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-misused-new 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 2,
+    "line": 2,
+    "message": "Class cannot have method named \`new\`.",
+    "messageId": "errorMessageClass",
+    "nodeType": "MethodDefinition",
+    "ruleId": "@typescript-eslint/no-misused-new",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 13,
+    "endLine": 6,
+    "line": 6,
+    "message": "Interfaces cannot be constructed, only classes.",
+    "messageId": "errorMessageInterface",
+    "nodeType": "TSConstructSignatureDeclaration",
+    "ruleId": "@typescript-eslint/no-misused-new",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 23,
+    "endLine": 7,
+    "line": 7,
+    "message": "Interfaces cannot be constructed, only classes.",
+    "messageId": "errorMessageInterface",
+    "nodeType": "TSMethodSignature",
+    "ruleId": "@typescript-eslint/no-misused-new",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-namespace 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 1,
+    "line": 1,
+    "message": "ES2015 module syntax is preferred over namespaces.",
+    "messageId": "moduleSyntaxIsPreferred",
+    "nodeType": "TSModuleDeclaration",
+    "ruleId": "@typescript-eslint/no-namespace",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 2,
+    "line": 2,
+    "message": "ES2015 module syntax is preferred over namespaces.",
+    "messageId": "moduleSyntaxIsPreferred",
+    "nodeType": "TSModuleDeclaration",
+    "ruleId": "@typescript-eslint/no-namespace",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 4,
+    "line": 4,
+    "message": "ES2015 module syntax is preferred over namespaces.",
+    "messageId": "moduleSyntaxIsPreferred",
+    "nodeType": "TSModuleDeclaration",
+    "ruleId": "@typescript-eslint/no-namespace",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "ES2015 module syntax is preferred over namespaces.",
+    "messageId": "moduleSyntaxIsPreferred",
+    "nodeType": "TSModuleDeclaration",
+    "ruleId": "@typescript-eslint/no-namespace",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-non-null-asserted-optional-chain 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Optional chain expressions can return undefined by design - using a non-null assertion is unsafe and wrong.",
+    "messageId": "noNonNullOptionalChain",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-non-null-asserted-optional-chain",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "You should remove the non-null assertion.",
+        "fix": {
+          "range": [
+            8,
+            9,
+          ],
+          "text": "",
+        },
+        "messageId": "suggestRemovingNonNull",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 2,
+    "line": 2,
+    "message": "Optional chain expressions can return undefined by design - using a non-null assertion is unsafe and wrong.",
+    "messageId": "noNonNullOptionalChain",
+    "nodeType": "TSNonNullExpression",
+    "ruleId": "@typescript-eslint/no-non-null-asserted-optional-chain",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "You should remove the non-null assertion.",
+        "fix": {
+          "range": [
+            21,
+            22,
+          ],
+          "text": "",
+        },
+        "messageId": "suggestRemovingNonNull",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-this-alias 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 11,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected aliasing of 'this' to local variable.",
+    "messageId": "thisAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-this-alias",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-unnecessary-type-constraint 1`] = `
+[
+  {
+    "column": 18,
+    "endColumn": 31,
+    "endLine": 1,
+    "line": 1,
+    "message": "Constraining the generic type \`T\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            18,
+            30,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 22,
+    "endColumn": 39,
+    "endLine": 3,
+    "line": 3,
+    "message": "Constraining the generic type \`T\` to \`unknown\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "unknown",
+        },
+        "desc": "Remove the unnecessary \`unknown\` constraint.",
+        "fix": {
+          "range": [
+            58,
+            74,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 13,
+    "endColumn": 26,
+    "endLine": 5,
+    "line": 5,
+    "message": "Constraining the generic type \`T\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            93,
+            105,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 17,
+    "endColumn": 34,
+    "endLine": 7,
+    "line": 7,
+    "message": "Constraining the generic type \`T\` to \`unknown\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "unknown",
+        },
+        "desc": "Remove the unnecessary \`unknown\` constraint.",
+        "fix": {
+          "range": [
+            131,
+            147,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 14,
+    "endColumn": 27,
+    "endLine": 9,
+    "line": 9,
+    "message": "Constraining the generic type \`T\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            170,
+            182,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 10,
+    "endColumn": 23,
+    "endLine": 10,
+    "line": 10,
+    "message": "Constraining the generic type \`U\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            196,
+            208,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 18,
+    "endColumn": 31,
+    "endLine": 13,
+    "line": 13,
+    "message": "Constraining the generic type \`T\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            236,
+            248,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+  {
+    "column": 18,
+    "endColumn": 31,
+    "endLine": 15,
+    "line": 15,
+    "message": "Constraining the generic type \`T\` to \`any\` does nothing and is unnecessary.",
+    "messageId": "unnecessaryConstraint",
+    "nodeType": "TSTypeParameter",
+    "ruleId": "@typescript-eslint/no-unnecessary-type-constraint",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "constraint": "any",
+        },
+        "desc": "Remove the unnecessary \`any\` constraint.",
+        "fix": {
+          "range": [
+            278,
+            290,
+          ],
+          "text": "",
+        },
+        "messageId": "removeUnnecessaryConstraint",
+      },
+    ],
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-unsafe-declaration-merging 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 14,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unsafe declaration merging between classes and interfaces.",
+    "messageId": "unsafeMerging",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unsafe-declaration-merging",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unsafe declaration merging between classes and interfaces.",
+    "messageId": "unsafeMerging",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unsafe-declaration-merging",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-unused-vars 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 6,
+    "endLine": 1,
+    "line": 1,
+    "message": "'a' is assigned a value but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 13,
+    "endLine": 2,
+    "line": 2,
+    "message": "'foo' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 23,
+    "endLine": 2,
+    "line": 2,
+    "message": "'b' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "@typescript-eslint/no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/no-var-requires 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 25,
+    "endLine": 1,
+    "line": 1,
+    "message": "Require statement not part of import statement.",
+    "messageId": "noVarReqs",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-var-requires",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 29,
+    "endLine": 2,
+    "line": 2,
+    "message": "Require statement not part of import statement.",
+    "messageId": "noVarReqs",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-var-requires",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 27,
+    "endLine": 3,
+    "line": 3,
+    "message": "Require statement not part of import statement.",
+    "messageId": "noVarReqs",
+    "nodeType": "CallExpression",
+    "ruleId": "@typescript-eslint/no-var-requires",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/prefer-as-const 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 11,
+    "endLine": 1,
+    "line": 1,
+    "message": "Expected a \`const\` assertion instead of a literal type annotation.",
+    "messageId": "variableConstAssertion",
+    "nodeType": "TSLiteralType",
+    "ruleId": "@typescript-eslint/prefer-as-const",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "You should use \`as const\` instead of type annotation.",
+        "fix": {
+          "range": [
+            7,
+            14,
+          ],
+          "text": " = 2 as const",
+        },
+        "messageId": "variableSuggest",
+      },
+    ],
+  },
+  {
+    "column": 27,
+    "endColumn": 32,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        42,
+        47,
+      ],
+      "text": "const",
+    },
+    "line": 2,
+    "message": "Expected a \`const\` instead of a literal type assertion.",
+    "messageId": "preferConstAssertion",
+    "nodeType": "TSLiteralType",
+    "ruleId": "@typescript-eslint/prefer-as-const",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`typescript -> recommended > @typescript-eslint/triple-slash-reference 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 30,
+    "endLine": 2,
+    "line": 2,
+    "message": "Do not use a triple slash reference for code, use \`import\` style instead.",
+    "messageId": "tripleSlashReference",
+    "nodeType": "Line",
+    "ruleId": "@typescript-eslint/triple-slash-reference",
+    "severity": 2,
+  },
+]
+`;

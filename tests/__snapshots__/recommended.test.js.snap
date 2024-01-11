@@ -1,0 +1,3497 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`recommended -> eslint recommended > constructor-super 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 19,
+    "endLine": 3,
+    "line": 3,
+    "message": "Expected to call 'super()'.",
+    "messageId": "missingAll",
+    "nodeType": "MethodDefinition",
+    "ruleId": "constructor-super",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > for-direction 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "line": 1,
+    "message": "The update clause in this loop moves the variable in the wrong direction.",
+    "messageId": "incorrectDirection",
+    "nodeType": "ForStatement",
+    "ruleId": "for-direction",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > getter-return 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 11,
+    "endLine": 2,
+    "line": 2,
+    "message": "Expected to return a value in getter 'name'.",
+    "messageId": "expected",
+    "nodeType": "FunctionExpression",
+    "ruleId": "getter-return",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 17,
+    "endLine": 8,
+    "line": 8,
+    "message": "Expected to return a value in method 'get'.",
+    "messageId": "expected",
+    "nodeType": "FunctionExpression",
+    "ruleId": "getter-return",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 11,
+    "endLine": 14,
+    "line": 14,
+    "message": "Expected to return a value in getter 'name'.",
+    "messageId": "expected",
+    "nodeType": "FunctionExpression",
+    "ruleId": "getter-return",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-async-promise-executor 1`] = `
+[
+  {
+    "column": 25,
+    "endColumn": 30,
+    "endLine": 1,
+    "line": 1,
+    "message": "Promise executor functions should not be async.",
+    "messageId": "async",
+    "nodeType": "Identifier",
+    "ruleId": "no-async-promise-executor",
+    "severity": 2,
+  },
+  {
+    "column": 28,
+    "endColumn": 33,
+    "endLine": 11,
+    "line": 11,
+    "message": "Promise executor functions should not be async.",
+    "messageId": "async",
+    "nodeType": "Identifier",
+    "ruleId": "no-async-promise-executor",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-case-declarations 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 17,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 19,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "VariableDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 17,
+    "endLine": 12,
+    "line": 12,
+    "message": "Unexpected lexical declaration in case block.",
+    "messageId": "unexpected",
+    "nodeType": "ClassDeclaration",
+    "ruleId": "no-case-declarations",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-class-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 2,
+    "line": 2,
+    "message": "'A' is a class.",
+    "messageId": "class",
+    "nodeType": "Identifier",
+    "ruleId": "no-class-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-compare-neg-zero 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not use the '===' operator to compare against -0.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-compare-neg-zero",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-cond-assign 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 3,
+    "line": 3,
+    "message": "Expected a conditional expression and instead saw an assignment.",
+    "messageId": "missing",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-cond-assign",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 42,
+    "endLine": 11,
+    "line": 11,
+    "message": "Expected a conditional expression and instead saw an assignment.",
+    "messageId": "missing",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-cond-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-const-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 2,
+    "line": 2,
+    "message": "'a' is constant.",
+    "messageId": "const",
+    "nodeType": "Identifier",
+    "ruleId": "no-const-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-constant-condition 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 11,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 16,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "ClassExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 19,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "NewExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 21,
+    "line": 21,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "CallExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 25,
+    "line": 25,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Identifier",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 29,
+    "line": 29,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 9,
+    "endLine": 33,
+    "line": 33,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 37,
+    "line": 37,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 16,
+    "endLine": 43,
+    "line": 43,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 15,
+    "endLine": 45,
+    "line": 45,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 30,
+    "endLine": 47,
+    "line": 47,
+    "message": "Unexpected constant condition.",
+    "messageId": "unexpected",
+    "nodeType": "LogicalExpression",
+    "ruleId": "no-constant-condition",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-control-regex 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected control character(s) in regular expression: \\x00.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected control character(s) in regular expression: \\x1f.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 33,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 34,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unexpected control character(s) in regular expression: \\x0c.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-control-regex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-debugger 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected 'debugger' statement.",
+    "messageId": "unexpected",
+    "nodeType": "DebuggerStatement",
+    "ruleId": "no-debugger",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-delete-var 1`] = `
+[
+  {
+    "column": 1,
+    "fatal": true,
+    "line": 2,
+    "message": "Parsing error: Deleting local variable in strict mode",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-dupe-args 1`] = `
+[
+  {
+    "column": 20,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: Argument name clash",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-dupe-class-members 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "Duplicate name 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "MethodDefinition",
+    "ruleId": "no-dupe-class-members",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 16,
+    "endLine": 8,
+    "line": 8,
+    "message": "Duplicate name 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "MethodDefinition",
+    "ruleId": "no-dupe-class-members",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 7,
+    "endLine": 13,
+    "line": 13,
+    "message": "Duplicate name 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "PropertyDefinition",
+    "ruleId": "no-dupe-class-members",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 18,
+    "line": 18,
+    "message": "Duplicate name 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "MethodDefinition",
+    "ruleId": "no-dupe-class-members",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 19,
+    "endLine": 23,
+    "line": 23,
+    "message": "Duplicate name 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "MethodDefinition",
+    "ruleId": "no-dupe-class-members",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-dupe-else-if 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 26,
+    "endLine": 3,
+    "line": 3,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "CallExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 13,
+    "line": 13,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "LogicalExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 19,
+    "endLine": 25,
+    "line": 25,
+    "message": "This branch can never execute. Its condition is a duplicate or covered by previous conditions in the if-else-if chain.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-dupe-else-if",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-dupe-keys 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 6,
+    "endLine": 3,
+    "line": 3,
+    "message": "Duplicate key 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectExpression",
+    "ruleId": "no-dupe-keys",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 6,
+    "endLine": 8,
+    "line": 8,
+    "message": "Duplicate key 'bar'.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectExpression",
+    "ruleId": "no-dupe-keys",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 13,
+    "line": 13,
+    "message": "Duplicate key '1'.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectExpression",
+    "ruleId": "no-dupe-keys",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-duplicate-case 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 10,
+    "line": 9,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 21,
+    "line": 20,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 32,
+    "line": 31,
+    "message": "Duplicate case label.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-duplicate-case",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-empty 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 2,
+    "endLine": 2,
+    "line": 1,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            10,
+            11,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 13,
+    "endColumn": 2,
+    "endLine": 5,
+    "line": 4,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            27,
+            28,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 8,
+    "line": 7,
+    "message": "Empty switch statement.",
+    "messageId": "unexpected",
+    "nodeType": "SwitchStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 2,
+    "endLine": 14,
+    "line": 12,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            86,
+            88,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+  {
+    "column": 11,
+    "endColumn": 2,
+    "endLine": 16,
+    "line": 14,
+    "message": "Empty block statement.",
+    "messageId": "unexpected",
+    "nodeType": "BlockStatement",
+    "ruleId": "no-empty",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "block",
+        },
+        "desc": "Add comment inside empty block statement.",
+        "fix": {
+          "range": [
+            99,
+            101,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-empty-character-class 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 1,
+    "line": 1,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 2,
+    "line": 2,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 4,
+    "line": 4,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 28,
+    "endLine": 5,
+    "line": 5,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 7,
+    "line": 7,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 33,
+    "endLine": 8,
+    "line": 8,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 10,
+    "line": 10,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 33,
+    "endLine": 11,
+    "line": 11,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 27,
+    "endLine": 13,
+    "line": 13,
+    "message": "Empty class.",
+    "messageId": "unexpected",
+    "nodeType": "Literal",
+    "ruleId": "no-empty-character-class",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-empty-pattern 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 7,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 7,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 11,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 11,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 16,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 16,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 20,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unexpected empty object pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ObjectPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 20,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unexpected empty array pattern.",
+    "messageId": "unexpected",
+    "nodeType": "ArrayPattern",
+    "ruleId": "no-empty-pattern",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-ex-assign 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not assign to the exception parameter.",
+    "messageId": "unexpected",
+    "nodeType": "Identifier",
+    "ruleId": "no-ex-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-extra-boolean-cast 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 17,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        11,
+        16,
+      ],
+      "text": "bar",
+    },
+    "line": 1,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 16,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        29,
+        34,
+      ],
+      "text": "bar",
+    },
+    "line": 3,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 24,
+    "endLine": 5,
+    "fix": {
+      "range": [
+        67,
+        72,
+      ],
+      "text": "bar",
+    },
+    "line": 5,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 23,
+    "endColumn": 28,
+    "endLine": 7,
+    "fix": {
+      "range": [
+        98,
+        103,
+      ],
+      "text": "bar",
+    },
+    "line": 7,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 10,
+    "endLine": 9,
+    "fix": {
+      "range": [
+        111,
+        116,
+      ],
+      "text": "foo",
+    },
+    "line": 9,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 17,
+    "endLine": 13,
+    "fix": {
+      "range": [
+        138,
+        150,
+      ],
+      "text": "foo",
+    },
+    "line": 13,
+    "message": "Redundant Boolean call.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 13,
+    "endLine": 17,
+    "fix": {
+      "range": [
+        175,
+        180,
+      ],
+      "text": "foo",
+    },
+    "line": 17,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 23,
+    "fix": {
+      "range": [
+        223,
+        235,
+      ],
+      "text": "foo",
+    },
+    "line": 23,
+    "message": "Redundant Boolean call.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 13,
+    "endLine": 25,
+    "fix": {
+      "range": [
+        246,
+        251,
+      ],
+      "text": "foo",
+    },
+    "line": 25,
+    "message": "Redundant double negation.",
+    "messageId": "unexpectedNegation",
+    "nodeType": "UnaryExpression",
+    "ruleId": "no-extra-boolean-cast",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-extra-semi 1`] = `
+[
+  {
+    "message": "This rule was deprecated in ESLint v8.53.0.",
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-fallthrough 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 21,
+    "endLine": 6,
+    "line": 5,
+    "message": "Expected a 'break' statement before 'case'.",
+    "messageId": "case",
+    "nodeType": "SwitchCase",
+    "ruleId": "no-fallthrough",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-func-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 4,
+    "endLine": 2,
+    "line": 2,
+    "message": "'foo' is a function.",
+    "messageId": "isAFunction",
+    "nodeType": "Identifier",
+    "ruleId": "no-func-assign",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 6,
+    "endLine": 5,
+    "line": 5,
+    "message": "'baz' is a function.",
+    "messageId": "isAFunction",
+    "nodeType": "Identifier",
+    "ruleId": "no-func-assign",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 8,
+    "endLine": 9,
+    "line": 9,
+    "message": "'hello' is a function.",
+    "messageId": "isAFunction",
+    "nodeType": "Identifier",
+    "ruleId": "no-func-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-global-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 7,
+    "endLine": 1,
+    "line": 1,
+    "message": "Read-only global 'Object' should not be modified.",
+    "messageId": "globalShouldNotBeModified",
+    "nodeType": "Identifier",
+    "ruleId": "no-global-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 2,
+    "line": 2,
+    "message": "Read-only global 'undefined' should not be modified.",
+    "messageId": "globalShouldNotBeModified",
+    "nodeType": "Identifier",
+    "ruleId": "no-global-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-import-assign 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 8,
+    "endLine": 4,
+    "line": 4,
+    "message": "'mod' is read-only.",
+    "messageId": "readonly",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-import-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 5,
+    "line": 5,
+    "message": "'named' is read-only.",
+    "messageId": "readonly",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-import-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 6,
+    "line": 6,
+    "message": "The members of 'mod_ns' are read-only.",
+    "messageId": "readonlyMember",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-import-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 7,
+    "line": 7,
+    "message": "'mod_ns' is read-only.",
+    "messageId": "readonly",
+    "nodeType": "AssignmentExpression",
+    "ruleId": "no-import-assign",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 38,
+    "endLine": 9,
+    "line": 9,
+    "message": "The members of 'mod_ns' are read-only.",
+    "messageId": "readonlyMember",
+    "nodeType": "CallExpression",
+    "ruleId": "no-import-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-inner-declarations 1`] = `
+[
+  {
+    "column": 10,
+    "fatal": true,
+    "line": 11,
+    "message": "Parsing error: Unexpected token function",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-invalid-regexp 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 1,
+    "line": 1,
+    "message": "Invalid regular expression: /[/: Unterminated character class.",
+    "messageId": "regexMessage",
+    "nodeType": "CallExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 3,
+    "line": 3,
+    "message": "Invalid flags supplied to RegExp constructor 'z'.",
+    "messageId": "regexMessage",
+    "nodeType": "CallExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 5,
+    "line": 5,
+    "message": "Invalid regular expression: /\\/: \\ at end of pattern.",
+    "messageId": "regexMessage",
+    "nodeType": "NewExpression",
+    "ruleId": "no-invalid-regexp",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-irregular-whitespace 1`] = `
+[
+  {
+    "column": 21,
+    "endColumn": 22,
+    "endLine": 13,
+    "line": 13,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 18,
+    "endLine": 18,
+    "line": 18,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+  {
+    "column": 19,
+    "endColumn": 20,
+    "endLine": 39,
+    "line": 39,
+    "message": "Irregular whitespace not allowed.",
+    "messageId": "noIrregularWhitespace",
+    "nodeType": "Program",
+    "ruleId": "no-irregular-whitespace",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-loss-of-precision 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 42,
+    "endLine": 2,
+    "line": 2,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 38,
+    "endLine": 3,
+    "line": 3,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 37,
+    "endLine": 4,
+    "line": 4,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 27,
+    "endLine": 5,
+    "line": 5,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 29,
+    "endLine": 6,
+    "line": 6,
+    "message": "This number literal will lose precision at runtime.",
+    "messageId": "noLossOfPrecision",
+    "nodeType": "Literal",
+    "ruleId": "no-loss-of-precision",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-misleading-character-class 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected combined character in character class.",
+    "messageId": "combiningClass",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected combined character in character class.",
+    "messageId": "combiningClass",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unexpected modified Emoji in character class.",
+    "messageId": "emojiModifier",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unexpected national flag in character class.",
+    "messageId": "regionalIndicatorSymbol",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unexpected joined character sequence in character class.",
+    "messageId": "zwj",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected surrogate pair in character class. Use 'u' flag.",
+    "messageId": "surrogatePairWithoutUFlag",
+    "nodeType": "Literal",
+    "ruleId": "no-misleading-character-class",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add unicode 'u' flag to regex.",
+        "fix": {
+          "range": [
+            73,
+            73,
+          ],
+          "text": "u",
+        },
+        "messageId": "suggestUnicodeFlag",
+      },
+    ],
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-mixed-spaces-and-tabs 1`] = `
+[
+  {
+    "message": "This rule was deprecated in ESLint v8.53.0.",
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-new-symbol 1`] = `
+[
+  {
+    "column": 15,
+    "endColumn": 21,
+    "endLine": 1,
+    "line": 1,
+    "message": "\`Symbol\` cannot be called as a constructor.",
+    "messageId": "noNewSymbol",
+    "nodeType": "Identifier",
+    "ruleId": "no-new-symbol",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-nonoctal-decimal-escape 1`] = `
+[
+  {
+    "column": 3,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: Invalid escape sequence",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-obj-calls 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 1,
+    "line": 1,
+    "message": "'Math' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 25,
+    "endLine": 3,
+    "line": 3,
+    "message": "'Math' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "NewExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 5,
+    "line": 5,
+    "message": "'JSON' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 25,
+    "endLine": 7,
+    "line": 7,
+    "message": "'JSON' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "NewExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 24,
+    "endLine": 9,
+    "line": 9,
+    "message": "'Reflect' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 31,
+    "endLine": 11,
+    "line": 11,
+    "message": "'Reflect' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "NewExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 24,
+    "endLine": 13,
+    "line": 13,
+    "message": "'Atomics' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 18,
+    "endColumn": 31,
+    "endLine": 15,
+    "line": 15,
+    "message": "'Atomics' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "NewExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 18,
+    "endLine": 17,
+    "line": 17,
+    "message": "'Intl' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "CallExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 25,
+    "endLine": 19,
+    "line": 19,
+    "message": "'Intl' is not a function.",
+    "messageId": "unexpectedCall",
+    "nodeType": "NewExpression",
+    "ruleId": "no-obj-calls",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-octal 1`] = `
+[
+  {
+    "column": 11,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: Invalid number",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-prototype-builtins 1`] = `
+[
+  {
+    "column": 26,
+    "endColumn": 40,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not access Object.prototype method 'hasOwnProperty' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "hasOwnProperty",
+        },
+        "desc": "Call Object.prototype.hasOwnProperty explicitly.",
+        "fix": {
+          "range": [
+            21,
+            40,
+          ],
+          "text": "Object.prototype.hasOwnProperty.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+  {
+    "column": 28,
+    "endColumn": 41,
+    "endLine": 3,
+    "line": 3,
+    "message": "Do not access Object.prototype method 'isPrototypeOf' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "isPrototypeOf",
+        },
+        "desc": "Call Object.prototype.isPrototypeOf explicitly.",
+        "fix": {
+          "range": [
+            72,
+            90,
+          ],
+          "text": "Object.prototype.isPrototypeOf.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+  {
+    "column": 27,
+    "endColumn": 47,
+    "endLine": 5,
+    "line": 5,
+    "message": "Do not access Object.prototype method 'propertyIsEnumerable' from target object.",
+    "messageId": "prototypeBuildIn",
+    "nodeType": "CallExpression",
+    "ruleId": "no-prototype-builtins",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "prop": "propertyIsEnumerable",
+        },
+        "desc": "Call Object.prototype.propertyIsEnumerable explicitly.",
+        "fix": {
+          "range": [
+            119,
+            144,
+          ],
+          "text": "Object.prototype.propertyIsEnumerable.call(foo, ",
+        },
+        "messageId": "callObjectPrototype",
+      },
+    ],
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-redeclare 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 6,
+    "endLine": 2,
+    "line": 2,
+    "message": "'a' is already defined.",
+    "messageId": "redeclared",
+    "nodeType": "Identifier",
+    "ruleId": "no-redeclare",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 14,
+    "endLine": 7,
+    "line": 7,
+    "message": "'b' is already defined.",
+    "messageId": "redeclared",
+    "nodeType": "Identifier",
+    "ruleId": "no-redeclare",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 14,
+    "endLine": 12,
+    "line": 12,
+    "message": "'c' is already defined.",
+    "messageId": "redeclared",
+    "nodeType": "Identifier",
+    "ruleId": "no-redeclare",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-regex-spaces 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 21,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        13,
+        16,
+      ],
+      "text": " {3}",
+    },
+    "line": 1,
+    "message": "Spaces are hard to count. Use {3}.",
+    "messageId": "multipleSpaces",
+    "nodeType": "Literal",
+    "ruleId": "no-regex-spaces",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 33,
+    "endLine": 2,
+    "fix": {
+      "range": [
+        46,
+        49,
+      ],
+      "text": " {3}",
+    },
+    "line": 2,
+    "message": "Spaces are hard to count. Use {3}.",
+    "messageId": "multipleSpaces",
+    "nodeType": "NewExpression",
+    "ruleId": "no-regex-spaces",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-self-assign 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 12,
+    "endLine": 3,
+    "line": 3,
+    "message": "'a' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 15,
+    "endLine": 3,
+    "line": 3,
+    "message": "'b' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 20,
+    "endColumn": 21,
+    "endLine": 5,
+    "line": 5,
+    "message": "'b' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 13,
+    "endLine": 7,
+    "line": 7,
+    "message": "'a' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 9,
+    "line": 9,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 10,
+    "line": 10,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 12,
+    "endLine": 11,
+    "line": 11,
+    "message": "'foo' is assigned to itself.",
+    "messageId": "selfAssignment",
+    "nodeType": "Identifier",
+    "ruleId": "no-self-assign",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-setter-return 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 20,
+    "endLine": 4,
+    "line": 4,
+    "message": "Setter cannot return a value.",
+    "messageId": "returnsValue",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-setter-return",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 11,
+    "line": 11,
+    "message": "Setter cannot return a value.",
+    "messageId": "returnsValue",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-setter-return",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 20,
+    "endLine": 19,
+    "line": 19,
+    "message": "Setter cannot return a value.",
+    "messageId": "returnsValue",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-setter-return",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 24,
+    "endLine": 28,
+    "line": 28,
+    "message": "Setter cannot return a value.",
+    "messageId": "returnsValue",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-setter-return",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-shadow-restricted-names 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 13,
+    "endLine": 1,
+    "line": 1,
+    "message": "Shadowing of global property 'NaN'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 3,
+    "line": 3,
+    "message": "Shadowing of global property 'Infinity'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 5,
+    "line": 5,
+    "message": "Shadowing of global property 'undefined'.",
+    "messageId": "shadowingRestrictedName",
+    "nodeType": "Identifier",
+    "ruleId": "no-shadow-restricted-names",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-sparse-arrays 1`] = `
+[
+  {
+    "column": 13,
+    "endColumn": 16,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected comma in middle of array.",
+    "messageId": "unexpectedSparseArray",
+    "nodeType": "ArrayExpression",
+    "ruleId": "no-sparse-arrays",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 32,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unexpected comma in middle of array.",
+    "messageId": "unexpectedSparseArray",
+    "nodeType": "ArrayExpression",
+    "ruleId": "no-sparse-arrays",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-this-before-super 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 11,
+    "endLine": 3,
+    "line": 3,
+    "message": "'this' is not allowed before 'super()'.",
+    "messageId": "noBeforeSuper",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-this-before-super",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 11,
+    "endLine": 10,
+    "line": 10,
+    "message": "'this' is not allowed before 'super()'.",
+    "messageId": "noBeforeSuper",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-this-before-super",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 17,
+    "line": 17,
+    "message": "'super' is not allowed before 'super()'.",
+    "messageId": "noBeforeSuper",
+    "nodeType": "Super",
+    "ruleId": "no-this-before-super",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 17,
+    "endLine": 24,
+    "line": 24,
+    "message": "'this' is not allowed before 'super()'.",
+    "messageId": "noBeforeSuper",
+    "nodeType": "ThisExpression",
+    "ruleId": "no-this-before-super",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-undef 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 23,
+    "endLine": 1,
+    "line": 1,
+    "message": "'someFunction' is not defined.",
+    "messageId": "undef",
+    "nodeType": "Identifier",
+    "ruleId": "no-undef",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 12,
+    "endLine": 2,
+    "line": 2,
+    "message": "'a' is not defined.",
+    "messageId": "undef",
+    "nodeType": "Identifier",
+    "ruleId": "no-undef",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unexpected-multiline 1`] = `
+[
+  {
+    "message": "This rule is being disabled by eslint-config-prettier.",
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unreachable 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 23,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 23,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 23,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 21,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 23,
+    "endLine": 25,
+    "line": 25,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ExpressionStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 21,
+    "endLine": 29,
+    "line": 28,
+    "message": "Unreachable code.",
+    "messageId": "unreachableCode",
+    "nodeType": "ForStatement",
+    "ruleId": "no-unreachable",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unsafe-finally 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 16,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unsafe usage of ReturnStatement.",
+    "messageId": "unsafeUsage",
+    "nodeType": "ReturnStatement",
+    "ruleId": "no-unsafe-finally",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unsafe usage of ThrowStatement.",
+    "messageId": "unsafeUsage",
+    "nodeType": "ThrowStatement",
+    "ruleId": "no-unsafe-finally",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unsafe-negation 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 9,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unexpected negating the left operand of 'in' operator.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-unsafe-negation",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "operator": "in",
+        },
+        "desc": "Negate 'in' expression instead of its left operand. This changes the current behavior.",
+        "fix": {
+          "range": [
+            5,
+            18,
+          ],
+          "text": "(key in object)",
+        },
+        "messageId": "suggestNegatedExpression",
+      },
+      {
+        "desc": "Wrap negation in '()' to make the intention explicit. This preserves the current behavior.",
+        "fix": {
+          "range": [
+            4,
+            8,
+          ],
+          "text": "(!key)",
+        },
+        "messageId": "suggestParenthesisedNegation",
+      },
+    ],
+  },
+  {
+    "column": 5,
+    "endColumn": 9,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unexpected negating the left operand of 'instanceof' operator.",
+    "messageId": "unexpected",
+    "nodeType": "BinaryExpression",
+    "ruleId": "no-unsafe-negation",
+    "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "operator": "instanceof",
+        },
+        "desc": "Negate 'instanceof' expression instead of its left operand. This changes the current behavior.",
+        "fix": {
+          "range": [
+            178,
+            197,
+          ],
+          "text": "(obj instanceof Ctor)",
+        },
+        "messageId": "suggestNegatedExpression",
+      },
+      {
+        "desc": "Wrap negation in '()' to make the intention explicit. This preserves the current behavior.",
+        "fix": {
+          "range": [
+            177,
+            181,
+          ],
+          "text": "(!obj)",
+        },
+        "messageId": "suggestParenthesisedNegation",
+      },
+    ],
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unsafe-optional-chaining 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 9,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 9,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 14,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 17,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 13,
+    "line": 13,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 15,
+    "line": 15,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 15,
+    "endLine": 17,
+    "line": 17,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 2,
+    "endColumn": 10,
+    "endLine": 19,
+    "line": 19,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 6,
+    "endColumn": 14,
+    "endLine": 21,
+    "line": 21,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 13,
+    "endLine": 23,
+    "line": 23,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 8,
+    "endColumn": 16,
+    "endLine": 25,
+    "line": 25,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 6,
+    "endColumn": 14,
+    "endLine": 27,
+    "line": 27,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 29,
+    "line": 29,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 21,
+    "endLine": 31,
+    "line": 31,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 33,
+    "line": 33,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 20,
+    "endLine": 35,
+    "line": 35,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 25,
+    "endLine": 37,
+    "line": 37,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 25,
+    "endColumn": 33,
+    "endLine": 39,
+    "line": 39,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 27,
+    "endColumn": 35,
+    "endLine": 42,
+    "line": 42,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 43,
+    "line": 43,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 19,
+    "endLine": 44,
+    "line": 44,
+    "message": "Unsafe usage of optional chaining. If it short-circuits with 'undefined' the evaluation will throw TypeError.",
+    "messageId": "unsafeOptionalChain",
+    "nodeType": "ChainExpression",
+    "ruleId": "no-unsafe-optional-chaining",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unused-labels 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 1,
+    "fix": {
+      "range": [
+        0,
+        3,
+      ],
+      "text": "",
+    },
+    "line": 1,
+    "message": "'A:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "fix": {
+      "range": [
+        17,
+        20,
+      ],
+      "text": "",
+    },
+    "line": 3,
+    "message": "'B:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 7,
+    "fix": {
+      "range": [
+        36,
+        39,
+      ],
+      "text": "",
+    },
+    "line": 7,
+    "message": "'C:' is defined but never used.",
+    "messageId": "unused",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-labels",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-unused-vars 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 6,
+    "endLine": 4,
+    "line": 4,
+    "message": "'x' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 8,
+    "line": 8,
+    "message": "'y' is assigned a value but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 12,
+    "line": 12,
+    "message": "'z' is assigned a value but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 11,
+    "endColumn": 14,
+    "endLine": 15,
+    "line": 15,
+    "message": "'foo' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 14,
+    "endLine": 20,
+    "line": 20,
+    "message": "'fact' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 17,
+    "endLine": 26,
+    "line": 26,
+    "message": "'x' is defined but never used.",
+    "messageId": "unusedVar",
+    "nodeType": "Identifier",
+    "ruleId": "no-unused-vars",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-useless-backreference 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 1,
+    "line": 1,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 3,
+    "line": 3,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Backreference '\\1' will be ignored. It references group '(c)' which is in another alternative.",
+    "messageId": "disjunctive",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 8,
+    "endLine": 7,
+    "line": 7,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 9,
+    "line": 9,
+    "message": "Backreference '\\2' will be ignored. It references group '(b)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "CallExpression",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 11,
+    "line": 11,
+    "message": "Backreference '\\2' will be ignored. It references group '(c)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 19,
+    "endLine": 13,
+    "line": 13,
+    "message": "Backreference '\\k<foo>' will be ignored. It references group '(?<foo>a)' which appears later in the pattern.",
+    "messageId": "forward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 15,
+    "line": 15,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears before in the same lookbehind.",
+    "messageId": "backward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 17,
+    "line": 17,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which appears before in the same lookbehind.",
+    "messageId": "backward",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 20,
+    "endLine": 19,
+    "line": 19,
+    "message": "Backreference '\\1' will be ignored. It references group '(\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "NewExpression",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 12,
+    "endLine": 21,
+    "line": 21,
+    "message": "Backreference '\\1' will be ignored. It references group '((a)\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 18,
+    "endLine": 23,
+    "line": 23,
+    "message": "Backreference '\\1' will be ignored. It references group '(?<foo>(.)b\\1)' from within that group.",
+    "messageId": "nested",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 25,
+    "line": 25,
+    "message": "Backreference '\\1' will be ignored. It references group '(b)' which is in a negative lookaround.",
+    "messageId": "intoNegativeLookaround",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 14,
+    "endLine": 27,
+    "line": 27,
+    "message": "Backreference '\\1' will be ignored. It references group '(a)' which is in a negative lookaround.",
+    "messageId": "intoNegativeLookaround",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-backreference",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-useless-catch 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 5,
+    "line": 1,
+    "message": "Unnecessary try/catch wrapper.",
+    "messageId": "unnecessaryCatch",
+    "nodeType": "TryStatement",
+    "ruleId": "no-useless-catch",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 2,
+    "endLine": 11,
+    "line": 9,
+    "message": "Unnecessary catch clause.",
+    "messageId": "unnecessaryCatchClause",
+    "nodeType": "CatchClause",
+    "ruleId": "no-useless-catch",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-useless-escape 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 1,
+    "line": 1,
+    "message": "Unnecessary escape character: \\'.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            1,
+            2,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            1,
+            1,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 2,
+    "line": 2,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            7,
+            8,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            7,
+            7,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 3,
+    "line": 3,
+    "message": "Unnecessary escape character: \\#.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            13,
+            14,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            13,
+            13,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 4,
+    "line": 4,
+    "message": "Unnecessary escape character: \\e.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\` if it was inserted by mistake.",
+        "fix": {
+          "range": [
+            19,
+            20,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscapeDoNotKeepSemantics",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            19,
+            19,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 5,
+    "line": 5,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            25,
+            26,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            25,
+            25,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            31,
+            32,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            31,
+            31,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 10,
+    "endColumn": 11,
+    "endLine": 6,
+    "line": 6,
+    "message": "Unnecessary escape character: \\".",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            39,
+            40,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            39,
+            39,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 7,
+    "line": 7,
+    "message": "Unnecessary escape character: \\#.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "TemplateElement",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            45,
+            46,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            45,
+            45,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 8,
+    "line": 8,
+    "message": "Unnecessary escape character: \\!.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            56,
+            57,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            56,
+            56,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 2,
+    "endColumn": 3,
+    "endLine": 9,
+    "line": 9,
+    "message": "Unnecessary escape character: \\@.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            62,
+            63,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            62,
+            62,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 10,
+    "line": 10,
+    "message": "Unnecessary escape character: \\[.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            69,
+            70,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            69,
+            69,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+  {
+    "column": 6,
+    "endColumn": 7,
+    "endLine": 11,
+    "line": 11,
+    "message": "Unnecessary escape character: \\-.",
+    "messageId": "unnecessaryEscape",
+    "nodeType": "Literal",
+    "ruleId": "no-useless-escape",
+    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Remove the \`\\\`. This maintains the current functionality.",
+        "fix": {
+          "range": [
+            80,
+            81,
+          ],
+          "text": "",
+        },
+        "messageId": "removeEscape",
+      },
+      {
+        "desc": "Replace the \`\\\` with \`\\\\\` to include the actual backslash character.",
+        "fix": {
+          "range": [
+            80,
+            80,
+          ],
+          "text": "\\",
+        },
+        "messageId": "escapeBackslash",
+      },
+    ],
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > no-with 1`] = `
+[
+  {
+    "column": 1,
+    "fatal": true,
+    "line": 1,
+    "message": "Parsing error: 'with' in strict mode",
+    "nodeType": null,
+    "ruleId": null,
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > require-yield 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 2,
+    "endLine": 3,
+    "line": 1,
+    "message": "This generator function does not have 'yield'.",
+    "messageId": "missingYield",
+    "nodeType": "FunctionDeclaration",
+    "ruleId": "require-yield",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > use-isnan 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 1,
+    "line": 1,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 5,
+    "line": 5,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 9,
+    "line": 9,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 22,
+    "endLine": 13,
+    "line": 13,
+    "message": "Use the isNaN function to compare with NaN.",
+    "messageId": "comparisonWithNaN",
+    "nodeType": "BinaryExpression",
+    "ruleId": "use-isnan",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`recommended -> eslint recommended > valid-typeof 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 24,
+    "endLine": 1,
+    "line": 1,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 26,
+    "endLine": 2,
+    "line": 2,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 15,
+    "endColumn": 23,
+    "endLine": 3,
+    "line": 3,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 26,
+    "endLine": 4,
+    "line": 4,
+    "message": "Invalid typeof comparison value.",
+    "messageId": "invalidValue",
+    "nodeType": "Literal",
+    "ruleId": "valid-typeof",
+    "severity": 2,
+  },
+]
+`;
