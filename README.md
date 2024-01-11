@@ -1,5 +1,7 @@
 # @jvdx/eslint-config
 
+> Notice: The old configuration can be found in the `v3` branch.
+
 jvdx's ESLint configuration, with sensible defaults for ES6, React and
 TypeScript projects.
 
