@@ -1,0 +1,2634 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`react -> jsx-a11y > jsx-a11y/alt-text 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 6,
+    "line": 6,
+    "message": "Invalid alt value for img. Use alt="" for presentational images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 41,
+    "endLine": 7,
+    "line": 7,
+    "message": "Invalid alt value for img. Use alt="" for presentational images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 44,
+    "endLine": 9,
+    "line": 9,
+    "message": "Prefer alt="" over a presentational role. First rule of aria is to not use aria if it can be achieved via native HTML.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 36,
+    "endLine": 11,
+    "line": 11,
+    "message": "Prefer alt="" over a presentational role. First rule of aria is to not use aria if it can be achieved via native HTML.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 28,
+    "endLine": 13,
+    "line": 13,
+    "message": "Embedded <object> elements must have alternative text by providing inner text, aria-label or aria-labelledby props.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 26,
+    "endLine": 16,
+    "line": 16,
+    "message": "Each area of an image map must have a text alternative through the \`alt\`, \`aria-label\`, or \`aria-labelledby\` prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 18,
+    "line": 18,
+    "message": "<input> elements with type="image" must have a text alternative through the \`alt\`, \`aria-label\`, or \`aria-labelledby\` prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/anchor-has-content 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 8,
+    "line": 8,
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-has-content",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 9,
+    "line": 9,
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-has-content",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/anchor-is-valid 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 26,
+    "endLine": 5,
+    "line": 5,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 35,
+    "endLine": 6,
+    "line": 6,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 37,
+    "endLine": 7,
+    "line": 7,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 37,
+    "endLine": 8,
+    "line": 8,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 52,
+    "endLine": 9,
+    "line": 9,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 54,
+    "endLine": 10,
+    "line": 10,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 54,
+    "endLine": 11,
+    "line": 11,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 12,
+    "line": 12,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 13,
+    "line": 13,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 14,
+    "line": 14,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 21,
+    "endLine": 15,
+    "line": 15,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 16,
+    "line": 16,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 17,
+    "line": 17,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 38,
+    "endLine": 18,
+    "line": 18,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 19,
+    "line": 19,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 20,
+    "line": 20,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/aria-activedescendant-has-tabindex 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 39,
+    "endLine": 1,
+    "line": 1,
+    "message": "An element that manages focus with \`aria-activedescendant\` must have a tabindex",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/aria-activedescendant-has-tabindex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/aria-props 1`] = `
+[
+  {
+    "column": 14,
+    "endColumn": 44,
+    "endLine": 5,
+    "line": 5,
+    "message": "aria-labeledby: This attribute is an invalid ARIA attribute. Did you mean to use aria-labelledby?",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/aria-proptypes 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 1,
+    "line": 1,
+    "message": "The value for aria-hidden must be a boolean.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-proptypes",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/aria-role 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 29,
+    "endLine": 7,
+    "line": 7,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 24,
+    "endLine": 8,
+    "line": 8,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 19,
+    "endLine": 9,
+    "line": 9,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/aria-unsupported-elements 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 45,
+    "endLine": 1,
+    "line": 1,
+    "message": "This element does not support ARIA roles, states and properties. Try removing the prop 'aria-hidden'.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/aria-unsupported-elements",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/autocomplete-valid 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 53,
+    "endLine": 6,
+    "line": 6,
+    "message": "the autocomplete attribute is incorrectly formatted",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/autocomplete-valid",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/click-events-have-key-events 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/click-events-have-key-events",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/heading-has-content 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 10,
+    "endLine": 4,
+    "line": 4,
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/heading-has-content",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/html-has-lang 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 1,
+    "line": 1,
+    "message": "<html> elements must have the lang prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/html-has-lang",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/iframe-has-title 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 14,
+    "endLine": 4,
+    "line": 4,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 23,
+    "endLine": 6,
+    "line": 6,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 7,
+    "line": 7,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 8,
+    "line": 8,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 32,
+    "endLine": 9,
+    "line": 9,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 28,
+    "endLine": 10,
+    "line": 10,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 27,
+    "endLine": 11,
+    "line": 11,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 12,
+    "line": 12,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/img-redundant-alt 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 53,
+    "endLine": 4,
+    "line": 4,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 49,
+    "endLine": 5,
+    "line": 5,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 56,
+    "endLine": 6,
+    "line": 6,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/interactive-supports-focus 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 48,
+    "endLine": 4,
+    "line": 4,
+    "message": "Elements with the 'button' interactive role must be tabbable.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/interactive-supports-focus",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 47,
+    "endLine": 7,
+    "line": 7,
+    "message": "Elements with the 'button' interactive role must be tabbable.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/interactive-supports-focus",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/label-has-associated-control 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 29,
+    "endLine": 2,
+    "line": 2,
+    "message": "A form label must be associated with a control.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/label-has-associated-control",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 11,
+    "endLine": 9,
+    "line": 9,
+    "message": "A form label must be associated with a control.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/label-has-associated-control",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/media-has-caption 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Media elements such as <audio> and <video> must have a <track> for captions.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/media-has-caption",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 24,
+    "endLine": 5,
+    "line": 5,
+    "message": "Media elements such as <audio> and <video> must have a <track> for captions.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/media-has-caption",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/mouse-events-have-key-events 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 35,
+    "endLine": 4,
+    "line": 4,
+    "message": "onMouseOver must be accompanied by onFocus for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 34,
+    "endLine": 5,
+    "line": 5,
+    "message": "onMouseOut must be accompanied by onBlur for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 35,
+    "endLine": 6,
+    "line": 6,
+    "message": "onMouseOver must be accompanied by onFocus for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 34,
+    "endLine": 7,
+    "line": 7,
+    "message": "onMouseOut must be accompanied by onBlur for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-access-key 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "No access key attribute allowed. Inconsistencies between keyboard shortcuts and keyboard commands used by screenreaders and keyboard-only users create a11y complications.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-access-key",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-autofocus 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 18,
+    "endLine": 4,
+    "line": 4,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 26,
+    "endLine": 6,
+    "line": 6,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 30,
+    "endLine": 7,
+    "line": 7,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-distracting-elements 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 15,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not use <marquee> elements as they can create visual accessibility issues and are deprecated.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-distracting-elements",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 13,
+    "endLine": 5,
+    "line": 5,
+    "message": "Do not use <blink> elements as they can create visual accessibility issues and are deprecated.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-distracting-elements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-interactive-element-to-noninteractive-role 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 23,
+    "endLine": 1,
+    "line": 1,
+    "message": "Interactive elements should not be assigned non-interactive roles.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-interactive-element-to-noninteractive-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-noninteractive-element-interactions 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 33,
+    "endLine": 4,
+    "line": 4,
+    "message": "Non-interactive elements should not be assigned mouse or keyboard event listeners.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-noninteractive-element-interactions",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 50,
+    "endLine": 5,
+    "line": 5,
+    "message": "Non-interactive elements should not be assigned mouse or keyboard event listeners.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-noninteractive-element-interactions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-noninteractive-element-to-interactive-role 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 18,
+    "endLine": 1,
+    "line": 1,
+    "message": "Non-interactive elements should not be assigned interactive roles.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-element-to-interactive-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-noninteractive-tabindex 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 21,
+    "endLine": 4,
+    "line": 4,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 36,
+    "endLine": 5,
+    "line": 5,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 25,
+    "endLine": 6,
+    "line": 6,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 25,
+    "endLine": 7,
+    "line": 7,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-redundant-roles 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 28,
+    "endLine": 4,
+    "line": 4,
+    "message": "The element button has an implicit role of button. Defining this explicitly is redundant and should be avoided.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-redundant-roles",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 36,
+    "endLine": 5,
+    "line": 5,
+    "message": "The element img has an implicit role of img. Defining this explicitly is redundant and should be avoided.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-redundant-roles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/no-static-element-interactions 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-static-element-interactions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/role-has-required-aria-props 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "Elements with the ARIA role "checkbox" must have the following attributes defined: aria-checked",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/role-has-required-aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/role-supports-aria-props 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 68,
+    "endLine": 2,
+    "line": 2,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+  {
+    "column": 2,
+    "endColumn": 68,
+    "endLine": 5,
+    "line": 5,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+  {
+    "column": 2,
+    "endColumn": 66,
+    "endLine": 8,
+    "line": 8,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/scope 1`] = `
+[
+  {
+    "column": 6,
+    "endColumn": 11,
+    "endLine": 1,
+    "line": 1,
+    "message": "The scope prop can only be used on <th> elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> jsx-a11y > jsx-a11y/tabindex-no-positive 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 4,
+    "line": 4,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 6,
+    "line": 6,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 7,
+    "line": 7,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/alt-text 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "img elements must have an alt prop, either with meaningful text, or an empty string for decorative images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 6,
+    "line": 6,
+    "message": "Invalid alt value for img. Use alt="" for presentational images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 41,
+    "endLine": 7,
+    "line": 7,
+    "message": "Invalid alt value for img. Use alt="" for presentational images.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 44,
+    "endLine": 9,
+    "line": 9,
+    "message": "Prefer alt="" over a presentational role. First rule of aria is to not use aria if it can be achieved via native HTML.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 36,
+    "endLine": 11,
+    "line": 11,
+    "message": "Prefer alt="" over a presentational role. First rule of aria is to not use aria if it can be achieved via native HTML.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 28,
+    "endLine": 13,
+    "line": 13,
+    "message": "Embedded <object> elements must have alternative text by providing inner text, aria-label or aria-labelledby props.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 26,
+    "endLine": 16,
+    "line": 16,
+    "message": "Each area of an image map must have a text alternative through the \`alt\`, \`aria-label\`, or \`aria-labelledby\` prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 18,
+    "line": 18,
+    "message": "<input> elements with type="image" must have a text alternative through the \`alt\`, \`aria-label\`, or \`aria-labelledby\` prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/alt-text",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/anchor-has-content 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 8,
+    "line": 8,
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-has-content",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 10,
+    "endLine": 9,
+    "line": 9,
+    "message": "Anchors must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-has-content",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/anchor-is-valid 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 26,
+    "endLine": 5,
+    "line": 5,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 35,
+    "endLine": 6,
+    "line": 6,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 37,
+    "endLine": 7,
+    "line": 7,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 37,
+    "endLine": 8,
+    "line": 8,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 52,
+    "endLine": 9,
+    "line": 9,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 54,
+    "endLine": 10,
+    "line": 10,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 54,
+    "endLine": 11,
+    "line": 11,
+    "message": "Anchor used as a button. Anchors are primarily expected to navigate. Use the button element instead. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 12,
+    "endLine": 12,
+    "line": 12,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 29,
+    "endLine": 13,
+    "line": 13,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 14,
+    "line": 14,
+    "message": "The href attribute is required for an anchor to be keyboard accessible. Provide a valid, navigable address as the href value. If you cannot provide an href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 21,
+    "endLine": 15,
+    "line": 15,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 16,
+    "line": 16,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 23,
+    "endLine": 17,
+    "line": 17,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 38,
+    "endLine": 18,
+    "line": 18,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 19,
+    "line": 19,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 40,
+    "endLine": 20,
+    "line": 20,
+    "message": "The href attribute requires a valid value to be accessible. Provide a valid, navigable address as the href value. If you cannot provide a valid href, but still need the element to resemble a link, use a button and change it with appropriate styles. Learn more: https://github.com/jsx-eslint/eslint-plugin-jsx-a11y/blob/HEAD/docs/rules/anchor-is-valid.md",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/anchor-is-valid",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/aria-activedescendant-has-tabindex 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 39,
+    "endLine": 1,
+    "line": 1,
+    "message": "An element that manages focus with \`aria-activedescendant\` must have a tabindex",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/aria-activedescendant-has-tabindex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/aria-props 1`] = `
+[
+  {
+    "column": 14,
+    "endColumn": 44,
+    "endLine": 5,
+    "line": 5,
+    "message": "aria-labeledby: This attribute is an invalid ARIA attribute. Did you mean to use aria-labelledby?",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/aria-proptypes 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 24,
+    "endLine": 1,
+    "line": 1,
+    "message": "The value for aria-hidden must be a boolean.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-proptypes",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/aria-role 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 29,
+    "endLine": 7,
+    "line": 7,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 24,
+    "endLine": 8,
+    "line": 8,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 19,
+    "endLine": 9,
+    "line": 9,
+    "message": "Elements with ARIA roles must use a valid, non-abstract ARIA role.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/aria-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/aria-unsupported-elements 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 45,
+    "endLine": 1,
+    "line": 1,
+    "message": "This element does not support ARIA roles, states and properties. Try removing the prop 'aria-hidden'.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/aria-unsupported-elements",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/autocomplete-valid 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 53,
+    "endLine": 6,
+    "line": 6,
+    "message": "the autocomplete attribute is incorrectly formatted",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/autocomplete-valid",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/click-events-have-key-events 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "Visible, non-interactive elements with click handlers must have at least one keyboard listener.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/click-events-have-key-events",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/heading-has-content 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 10,
+    "endLine": 4,
+    "line": 4,
+    "message": "Headings must have content and the content must be accessible by a screen reader.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/heading-has-content",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/html-has-lang 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 9,
+    "endLine": 1,
+    "line": 1,
+    "message": "<html> elements must have the lang prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/html-has-lang",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/iframe-has-title 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 14,
+    "endLine": 4,
+    "line": 4,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 23,
+    "endLine": 6,
+    "line": 6,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 7,
+    "line": 7,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 8,
+    "line": 8,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 32,
+    "endLine": 9,
+    "line": 9,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 28,
+    "endLine": 10,
+    "line": 10,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 27,
+    "endLine": 11,
+    "line": 11,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 25,
+    "endLine": 12,
+    "line": 12,
+    "message": "<iframe> elements must have a unique title property.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/iframe-has-title",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/img-redundant-alt 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 53,
+    "endLine": 4,
+    "line": 4,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 49,
+    "endLine": 5,
+    "line": 5,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 56,
+    "endLine": 6,
+    "line": 6,
+    "message": "Redundant alt attribute. Screen-readers already announce \`img\` tags as an image. You don’t need to use the words \`image\`, \`photo,\` or \`picture\` (or any specified custom words) in the alt prop.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/img-redundant-alt",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/interactive-supports-focus 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 48,
+    "endLine": 4,
+    "line": 4,
+    "message": "Elements with the 'button' interactive role must be tabbable.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/interactive-supports-focus",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 47,
+    "endLine": 7,
+    "line": 7,
+    "message": "Elements with the 'button' interactive role must be tabbable.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/interactive-supports-focus",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/label-has-associated-control 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 29,
+    "endLine": 2,
+    "line": 2,
+    "message": "A form label must be associated with a control.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/label-has-associated-control",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 11,
+    "endLine": 9,
+    "line": 9,
+    "message": "A form label must be associated with a control.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/label-has-associated-control",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/media-has-caption 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Media elements such as <audio> and <video> must have a <track> for captions.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/media-has-caption",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 24,
+    "endLine": 5,
+    "line": 5,
+    "message": "Media elements such as <audio> and <video> must have a <track> for captions.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/media-has-caption",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/mouse-events-have-key-events 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 35,
+    "endLine": 4,
+    "line": 4,
+    "message": "onMouseOver must be accompanied by onFocus for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 34,
+    "endLine": 5,
+    "line": 5,
+    "message": "onMouseOut must be accompanied by onBlur for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 35,
+    "endLine": 6,
+    "line": 6,
+    "message": "onMouseOver must be accompanied by onFocus for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 34,
+    "endLine": 7,
+    "line": 7,
+    "message": "onMouseOut must be accompanied by onBlur for accessibility.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/mouse-events-have-key-events",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-access-key 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "No access key attribute allowed. Inconsistencies between keyboard shortcuts and keyboard commands used by screenreaders and keyboard-only users create a11y complications.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-access-key",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-autofocus 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 18,
+    "endLine": 4,
+    "line": 4,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 25,
+    "endLine": 5,
+    "line": 5,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 26,
+    "endLine": 6,
+    "line": 6,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 30,
+    "endLine": 7,
+    "line": 7,
+    "message": "The autoFocus prop should not be used, as it can reduce usability and accessibility for users.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-autofocus",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-distracting-elements 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 15,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not use <marquee> elements as they can create visual accessibility issues and are deprecated.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-distracting-elements",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 13,
+    "endLine": 5,
+    "line": 5,
+    "message": "Do not use <blink> elements as they can create visual accessibility issues and are deprecated.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-distracting-elements",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-interactive-element-to-noninteractive-role 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 23,
+    "endLine": 1,
+    "line": 1,
+    "message": "Interactive elements should not be assigned non-interactive roles.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-interactive-element-to-noninteractive-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-noninteractive-element-interactions 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 33,
+    "endLine": 4,
+    "line": 4,
+    "message": "Non-interactive elements should not be assigned mouse or keyboard event listeners.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-noninteractive-element-interactions",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 50,
+    "endLine": 5,
+    "line": 5,
+    "message": "Non-interactive elements should not be assigned mouse or keyboard event listeners.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-noninteractive-element-interactions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-noninteractive-element-to-interactive-role 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 18,
+    "endLine": 1,
+    "line": 1,
+    "message": "Non-interactive elements should not be assigned interactive roles.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-element-to-interactive-role",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-noninteractive-tabindex 1`] = `
+[
+  {
+    "column": 9,
+    "endColumn": 21,
+    "endLine": 4,
+    "line": 4,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 36,
+    "endLine": 5,
+    "line": 5,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 25,
+    "endLine": 6,
+    "line": 6,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 25,
+    "endLine": 7,
+    "line": 7,
+    "message": "\`tabIndex\` should only be declared on interactive elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/no-noninteractive-tabindex",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-redundant-roles 1`] = `
+[
+  {
+    "column": 4,
+    "endColumn": 28,
+    "endLine": 4,
+    "line": 4,
+    "message": "The element button has an implicit role of button. Defining this explicitly is redundant and should be avoided.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-redundant-roles",
+    "severity": 2,
+  },
+  {
+    "column": 4,
+    "endColumn": 36,
+    "endLine": 5,
+    "line": 5,
+    "message": "The element img has an implicit role of img. Defining this explicitly is redundant and should be avoided.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-redundant-roles",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/no-static-element-interactions 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 1,
+    "line": 1,
+    "message": "Avoid non-native interactive elements. If using native HTML is not possible, add an appropriate role and support for tabbing, mouse, keyboard, and touch inputs to an interactive content element.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/no-static-element-interactions",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/role-has-required-aria-props 1`] = `
+[
+  {
+    "column": 7,
+    "endColumn": 22,
+    "endLine": 1,
+    "line": 1,
+    "message": "Elements with the ARIA role "checkbox" must have the following attributes defined: aria-checked",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/role-has-required-aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/role-supports-aria-props 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 68,
+    "endLine": 2,
+    "line": 2,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+  {
+    "column": 2,
+    "endColumn": 68,
+    "endLine": 5,
+    "line": 5,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+  {
+    "column": 2,
+    "endColumn": 66,
+    "endLine": 8,
+    "line": 8,
+    "message": "The attribute aria-required is not supported by the role radio.",
+    "nodeType": "JSXOpeningElement",
+    "ruleId": "jsx-a11y/role-supports-aria-props",
+    "severity": 1,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/scope 1`] = `
+[
+  {
+    "column": 6,
+    "endColumn": 11,
+    "endLine": 1,
+    "line": 1,
+    "message": "The scope prop can only be used on <th> elements.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/scope",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > jsx-a11y/tabindex-no-positive 1`] = `
+[
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 4,
+    "line": 4,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 6,
+    "line": 6,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 22,
+    "endLine": 7,
+    "line": 7,
+    "message": "Avoid positive integer values for tabIndex.",
+    "nodeType": "JSXAttribute",
+    "ruleId": "jsx-a11y/tabindex-no-positive",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> react-hooks > react-hooks/exhaustive-deps 1`] = `
+[
+  {
+    "column": 6,
+    "endColumn": 8,
+    "endLine": 5,
+    "line": 5,
+    "message": "React Hook useEffect has missing dependencies: 'props.a' and 'props.b'. Either include them or remove the dependency array.",
+    "nodeType": "ArrayExpression",
+    "ruleId": "react-hooks/exhaustive-deps",
+    "severity": 1,
+    "suggestions": [
+      {
+        "desc": "Update the dependencies array to be: [props.a, props.b]",
+        "fix": {
+          "range": [
+            110,
+            112,
+          ],
+          "text": "[props.a, props.b]",
+        },
+      },
+    ],
+  },
+]
+`;
+
+exports[`react -> react-hooks > react-hooks/rules-of-hooks 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 4,
+    "line": 4,
+    "message": "React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render.",
+    "nodeType": "Identifier",
+    "ruleId": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 12,
+    "line": 12,
+    "message": "React Hook "useEffect" may be executed more than once. Possibly because it is called in a loop. React Hooks must be called in the exact same order in every component render.",
+    "nodeType": "Identifier",
+    "ruleId": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  {
+    "column": 5,
+    "endColumn": 14,
+    "endLine": 19,
+    "line": 19,
+    "message": "React Hook "useEffect" is called in function "sub" that is neither a React function component nor a custom React Hook function. React component names must start with an uppercase letter. React Hook names must start with the word "use".",
+    "nodeType": "Identifier",
+    "ruleId": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 12,
+    "endLine": 31,
+    "line": 31,
+    "message": "React Hook "useEffect" is called conditionally. React Hooks must be called in the exact same order in every component render. Did you accidentally call a React Hook after an early return?",
+    "nodeType": "Identifier",
+    "ruleId": "react-hooks/rules-of-hooks",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/display-name 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 3,
+    "endLine": 9,
+    "line": 7,
+    "message": "Component definition is missing display name",
+    "messageId": "noDisplayName",
+    "nodeType": "CallExpression",
+    "ruleId": "react/display-name",
+    "severity": 2,
+  },
+  {
+    "column": 16,
+    "endColumn": 2,
+    "endLine": 13,
+    "line": 11,
+    "message": "Component definition is missing display name",
+    "messageId": "noDisplayName",
+    "nodeType": "ArrowFunctionExpression",
+    "ruleId": "react/display-name",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/jsx-key 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 11,
+    "endLine": 5,
+    "line": 5,
+    "message": "Missing "key" prop for element in array",
+    "messageId": "missingArrayKey",
+    "nodeType": "JSXElement",
+    "ruleId": "react/jsx-key",
+    "severity": 2,
+  },
+  {
+    "column": 13,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "Missing "key" prop for element in array",
+    "messageId": "missingArrayKey",
+    "nodeType": "JSXElement",
+    "ruleId": "react/jsx-key",
+    "severity": 2,
+  },
+  {
+    "column": 24,
+    "endColumn": 33,
+    "endLine": 5,
+    "line": 5,
+    "message": "Missing "key" prop for element in array",
+    "messageId": "missingArrayKey",
+    "nodeType": "JSXElement",
+    "ruleId": "react/jsx-key",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/jsx-no-comment-textnodes 1`] = `
+[
+  {
+    "column": 12,
+    "endColumn": 24,
+    "endLine": 4,
+    "line": 4,
+    "message": "Comments inside children section of tag should be placed inside braces",
+    "messageId": "putCommentInBraces",
+    "nodeType": "JSXText",
+    "ruleId": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+  {
+    "column": 12,
+    "endColumn": 7,
+    "endLine": 14,
+    "line": 12,
+    "message": "Comments inside children section of tag should be placed inside braces",
+    "messageId": "putCommentInBraces",
+    "nodeType": "JSXText",
+    "ruleId": "react/jsx-no-comment-textnodes",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/jsx-no-duplicate-props 1`] = `
+[
+  {
+    "column": 20,
+    "endColumn": 31,
+    "endLine": 1,
+    "line": 1,
+    "message": "No duplicate props allowed",
+    "messageId": "noDuplicateProps",
+    "nodeType": "JSXAttribute",
+    "ruleId": "react/jsx-no-duplicate-props",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/jsx-no-undef 1`] = `
+[
+  {
+    "column": 2,
+    "endColumn": 7,
+    "endLine": 1,
+    "line": 1,
+    "message": "'Hello' is not defined.",
+    "messageId": "undefined",
+    "nodeType": "JSXIdentifier",
+    "ruleId": "react/jsx-no-undef",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-children-prop 1`] = `
+[
+  {
+    "column": 6,
+    "endColumn": 25,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not pass children as props. Instead, nest children between the opening and closing tags.",
+    "messageId": "nestChildren",
+    "nodeType": "JSXAttribute",
+    "ruleId": "react/no-children-prop",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-danger-with-children 1`] = `
+[
+  {
+    "column": 1,
+    "endColumn": 7,
+    "endLine": 3,
+    "line": 1,
+    "message": "Only set one of \`children\` or \`props.dangerouslySetInnerHTML\`",
+    "messageId": "dangerWithChildren",
+    "nodeType": "JSXElement",
+    "ruleId": "react/no-danger-with-children",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-deprecated 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 21,
+    "endLine": 3,
+    "line": 3,
+    "message": "componentWillMount is deprecated since React 16.9.0, use UNSAFE_componentWillMount instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillmount. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components.",
+    "messageId": "deprecated",
+    "nodeType": "Identifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 28,
+    "endLine": 4,
+    "line": 4,
+    "message": "componentWillReceiveProps is deprecated since React 16.9.0, use UNSAFE_componentWillReceiveProps instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillreceiveprops. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components.",
+    "messageId": "deprecated",
+    "nodeType": "Identifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 22,
+    "endLine": 5,
+    "line": 5,
+    "message": "componentWillUpdate is deprecated since React 16.9.0, use UNSAFE_componentWillUpdate instead, see https://reactjs.org/docs/react-component.html#unsafe_componentwillupdate. Use https://github.com/reactjs/react-codemod#rename-unsafe-lifecycles to automatically update your components.",
+    "messageId": "deprecated",
+    "nodeType": "Identifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 13,
+    "endLine": 12,
+    "line": 12,
+    "message": "React.render is deprecated since React 0.14.0, use ReactDOM.render instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 29,
+    "endLine": 14,
+    "line": 14,
+    "message": "React.unmountComponentAtNode is deprecated since React 0.14.0, use ReactDOM.unmountComponentAtNode instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 18,
+    "endLine": 16,
+    "line": 16,
+    "message": "React.findDOMNode is deprecated since React 0.14.0, use ReactDOM.findDOMNode instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 21,
+    "endLine": 18,
+    "line": 18,
+    "message": "React.renderToString is deprecated since React 0.14.0, use ReactDOMServer.renderToString instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 27,
+    "endLine": 20,
+    "line": 20,
+    "message": "React.renderToStaticMarkup is deprecated since React 0.14.0, use ReactDOMServer.renderToStaticMarkup instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 18,
+    "endLine": 22,
+    "line": 22,
+    "message": "React.createClass is deprecated since React 15.5.0, use the npm module create-react-class instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 10,
+    "endLine": 25,
+    "line": 25,
+    "message": "React.DOM is deprecated since React 15.6.0, use the npm module react-dom-factories instead",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 19,
+    "endLine": 27,
+    "line": 27,
+    "message": "React.PropTypes is deprecated since React 15.5.0, use the npm module prop-types instead",
+    "messageId": "deprecated",
+    "nodeType": "ImportSpecifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 16,
+    "endLine": 30,
+    "line": 30,
+    "message": "ReactDOM.render is deprecated since React 18.0.0, use createRoot instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "ImportSpecifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 16,
+    "endLine": 31,
+    "line": 31,
+    "message": "ReactDOM.render is deprecated since React 18.0.0, use createRoot instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 17,
+    "endLine": 33,
+    "line": 33,
+    "message": "ReactDOM.hydrate is deprecated since React 18.0.0, use hydrateRoot instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "ImportSpecifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 17,
+    "endLine": 34,
+    "line": 34,
+    "message": "ReactDOM.hydrate is deprecated since React 18.0.0, use hydrateRoot instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 9,
+    "endColumn": 31,
+    "endLine": 36,
+    "line": 36,
+    "message": "ReactDOM.unmountComponentAtNode is deprecated since React 18.0.0, use root.unmount instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "ImportSpecifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 32,
+    "endLine": 37,
+    "line": 37,
+    "message": "ReactDOM.unmountComponentAtNode is deprecated since React 18.0.0, use root.unmount instead, see https://reactjs.org/link/switch-to-createroot",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 10,
+    "endColumn": 28,
+    "endLine": 39,
+    "line": 39,
+    "message": "ReactDOMServer.renderToNodeStream is deprecated since React 18.0.0, use renderToPipeableStream instead, see https://reactjs.org/docs/react-dom-server.html#rendertonodestream",
+    "messageId": "deprecated",
+    "nodeType": "ImportSpecifier",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+  {
+    "column": 1,
+    "endColumn": 34,
+    "endLine": 40,
+    "line": 40,
+    "message": "ReactDOMServer.renderToNodeStream is deprecated since React 18.0.0, use renderToPipeableStream instead, see https://reactjs.org/docs/react-dom-server.html#rendertonodestream",
+    "messageId": "deprecated",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-deprecated",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-direct-mutation-state 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 15,
+    "endLine": 3,
+    "line": 3,
+    "message": "Do not mutate state directly. Use setState().",
+    "messageId": "noDirectMutation",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-direct-mutation-state",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "endColumn": 11,
+    "endLine": 16,
+    "line": 16,
+    "message": "Do not mutate state directly. Use setState().",
+    "messageId": "noDirectMutation",
+    "nodeType": "ThisExpression",
+    "ruleId": "react/no-direct-mutation-state",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-find-dom-node 1`] = `
+[
+  {
+    "column": 5,
+    "endColumn": 16,
+    "endLine": 3,
+    "line": 3,
+    "message": "Do not use findDOMNode. It doesn’t work with function components and is deprecated in StrictMode. See https://reactjs.org/docs/react-dom.html#finddomnode",
+    "messageId": "noFindDOMNode",
+    "nodeType": "Identifier",
+    "ruleId": "react/no-find-dom-node",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-is-mounted 1`] = `
+[
+  {
+    "column": 11,
+    "endColumn": 25,
+    "endLine": 4,
+    "line": 4,
+    "message": "Do not use isMounted",
+    "messageId": "noIsMounted",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-is-mounted",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-render-return-value 1`] = `
+[
+  {
+    "column": 14,
+    "endColumn": 29,
+    "endLine": 1,
+    "line": 1,
+    "message": "Do not depend on the return value from ReactDOM.render",
+    "messageId": "noReturnValue",
+    "nodeType": "MemberExpression",
+    "ruleId": "react/no-render-return-value",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-string-refs 1`] = `
+[
+  {
+    "column": 16,
+    "endColumn": 27,
+    "endLine": 3,
+    "line": 3,
+    "message": "Using string literals in ref attributes is deprecated.",
+    "messageId": "stringInRefDeprecated",
+    "nodeType": "JSXAttribute",
+    "ruleId": "react/no-string-refs",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/no-unescaped-entities 1`] = `
+[
+  {
+    "column": 5,
+    "line": 3,
+    "message": "\`"\` can be escaped with \`&quot;\`, \`&ldquo;\`, \`&#34;\`, \`&rdquo;\`.",
+    "messageId": "unescapedEntityAlts",
+    "nodeType": "JSXText",
+    "ruleId": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+  {
+    "column": 7,
+    "line": 3,
+    "message": "\`"\` can be escaped with \`&quot;\`, \`&ldquo;\`, \`&#34;\`, \`&rdquo;\`.",
+    "messageId": "unescapedEntityAlts",
+    "nodeType": "JSXText",
+    "ruleId": "react/no-unescaped-entities",
+    "severity": 2,
+  },
+]
+`;
+
+exports[`react -> recommended > react/require-render-return 1`] = `
+[
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 4,
+    "line": 2,
+    "message": "Your render method should have a return statement",
+    "messageId": "noRenderReturn",
+    "nodeType": "Property",
+    "ruleId": "react/require-render-return",
+    "severity": 2,
+  },
+  {
+    "column": 3,
+    "endColumn": 4,
+    "endLine": 10,
+    "line": 8,
+    "message": "Your render method should have a return statement",
+    "messageId": "noRenderReturn",
+    "nodeType": "MethodDefinition",
+    "ruleId": "react/require-render-return",
+    "severity": 2,
+  },
+]
+`;
