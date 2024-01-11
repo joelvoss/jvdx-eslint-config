@@ -3,10 +3,9 @@
 > Notice: The old configuration can be found in the `v3` branch.
 
 jvdx's ESLint configuration, with sensible defaults for ES6, React and
-TypeScript projects.
-
-**Important:** This configuration is specifically for the new
-`eslint.config.js` flat file cofiguration format.
+TypeScript projects.<br>
+This configuration is specifically for the new
+`eslint.config.js` flat file configuration format.
 
 It exports a `configs` objects with the following rulesets:
 
