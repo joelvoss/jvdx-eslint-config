@@ -2788,8 +2788,8 @@ exports[`typescript -> recommended > @typescript-eslint/ban-ts-comment 1`] = `
   },
   {
     "column": 3,
-    "endColumn": 5,
-    "endLine": 8,
+    "endColumn": 43,
+    "endLine": 6,
     "line": 6,
     "message": "Use "@ts-expect-error" instead of "@ts-ignore", as "@ts-ignore" will do nothing if the following line is error-free.",
     "messageId": "tsIgnoreInsteadOfExpectError",
@@ -2802,11 +2802,9 @@ exports[`typescript -> recommended > @typescript-eslint/ban-ts-comment 1`] = `
         "fix": {
           "range": [
             94,
-            138,
+            134,
           ],
-          "text": "/*
-  @ts-expect-error: Unreachable code error
-  */",
+          "text": "/* @ts-expect-error: Unreachable code error */",
         },
         "messageId": "replaceTsIgnoreWithTsExpectError",
       },

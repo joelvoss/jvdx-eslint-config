@@ -1,3 +1,5 @@
+/*global Intl*/
+
 var math = Math();
 
 var newMath = new Math();
