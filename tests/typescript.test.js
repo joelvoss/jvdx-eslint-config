@@ -106,12 +106,10 @@ describe('typescript -> recommended', () => {
 
 	test.each([
 		'@typescript-eslint/ban-ts-comment',
-		'@typescript-eslint/ban-types',
 		'@typescript-eslint/no-array-constructor',
 		'@typescript-eslint/no-duplicate-enum-values',
 		'@typescript-eslint/no-explicit-any',
 		'@typescript-eslint/no-extra-non-null-assertion',
-		'@typescript-eslint/no-loss-of-precision',
 		'@typescript-eslint/no-misused-new',
 		'@typescript-eslint/no-namespace',
 		'@typescript-eslint/no-non-null-asserted-optional-chain',
@@ -119,7 +117,7 @@ describe('typescript -> recommended', () => {
 		'@typescript-eslint/no-unnecessary-type-constraint',
 		'@typescript-eslint/no-unsafe-declaration-merging',
 		'@typescript-eslint/no-unused-vars',
-		'@typescript-eslint/no-var-requires',
+		'@typescript-eslint/no-require-imports',
 		'@typescript-eslint/prefer-as-const',
 		'@typescript-eslint/triple-slash-reference',
 	])('%s', async rule => {

@@ -2593,6 +2593,76 @@ exports[`react -> recommended > react/no-unescaped-entities 1`] = `
     "nodeType": "JSXText",
     "ruleId": "react/no-unescaped-entities",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "alt": "&quot;",
+        },
+        "desc": "Replace with \`&quot;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c=&quot;d"
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&ldquo;",
+        },
+        "desc": "Replace with \`&ldquo;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c=&ldquo;d"
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&#34;",
+        },
+        "desc": "Replace with \`&#34;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c=&#34;d"
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&rdquo;",
+        },
+        "desc": "Replace with \`&rdquo;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c=&rdquo;d"
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+    ],
   },
   {
     "column": 7,
@@ -2602,6 +2672,76 @@ exports[`react -> recommended > react/no-unescaped-entities 1`] = `
     "nodeType": "JSXText",
     "ruleId": "react/no-unescaped-entities",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "alt": "&quot;",
+        },
+        "desc": "Replace with \`&quot;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c="d&quot;
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&ldquo;",
+        },
+        "desc": "Replace with \`&ldquo;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c="d&ldquo;
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&#34;",
+        },
+        "desc": "Replace with \`&#34;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c="d&#34;
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+      {
+        "data": {
+          "alt": "&rdquo;",
+        },
+        "desc": "Replace with \`&rdquo;\`.",
+        "fix": {
+          "range": [
+            36,
+            66,
+          ],
+          "text": "
+  c="d&rdquo;
+  Intended body text
+",
+        },
+        "messageId": "replaceWithAlt",
+      },
+    ],
   },
 ]
 `;
