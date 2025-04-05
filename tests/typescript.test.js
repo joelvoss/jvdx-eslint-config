@@ -1,14 +1,14 @@
-import { describe, expect, test } from 'vitest';
-import { fileURLToPath } from 'url';
-import { dirname, resolve } from 'path';
+import { ESLint } from 'eslint';
 import { readFileSync } from 'fs';
-import pkg from 'eslint/use-at-your-own-risk';
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
+import { describe, expect, test } from 'vitest';
 import config from '../src/index.js';
 
 const modulePath = dirname(fileURLToPath(import.meta.url));
 
 describe('typescript -> eslint recommended', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [
 			{
@@ -22,7 +22,6 @@ describe('typescript -> eslint recommended', () => {
 		'for-direction',
 		'no-async-promise-executor',
 		'no-case-declarations',
-		'no-class-assign',
 		'no-compare-neg-zero',
 		'no-cond-assign',
 		'no-constant-condition',
@@ -38,7 +37,6 @@ describe('typescript -> eslint recommended', () => {
 		'no-extra-boolean-cast',
 		'no-fallthrough',
 		'no-global-assign',
-		'no-inner-declarations',
 		'no-invalid-regexp',
 		'no-irregular-whitespace',
 		'no-misleading-character-class',
@@ -55,7 +53,6 @@ describe('typescript -> eslint recommended', () => {
 		'no-useless-backreference',
 		'no-useless-catch',
 		'no-useless-escape',
-		'no-with',
 		'require-yield',
 		'use-isnan',
 		'valid-typeof',
@@ -94,7 +91,7 @@ describe('typescript -> eslint recommended', () => {
 ////////////////////////////////////////////////////////////////////////////////
 
 describe('typescript -> recommended', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [
 			{

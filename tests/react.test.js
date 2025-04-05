@@ -1,14 +1,14 @@
-import { describe, expect, test } from 'vitest';
-import { fileURLToPath } from 'url';
-import { dirname, resolve } from 'path';
+import { ESLint } from 'eslint';
 import { readFileSync } from 'fs';
-import pkg from 'eslint/use-at-your-own-risk';
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
+import { describe, expect, test } from 'vitest';
 import config from '../src/index.js';
 
 const modulePath = dirname(fileURLToPath(import.meta.url));
 
 describe('react -> recommended', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [config.configs.react],
 	});
@@ -46,7 +46,7 @@ describe('react -> recommended', () => {
 ////////////////////////////////////////////////////////////////////////////////
 
 describe('react -> react-hooks', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [config.configs.react],
 	});
@@ -102,7 +102,7 @@ describe('react -> react-hooks', () => {
 ////////////////////////////////////////////////////////////////////////////////
 
 describe('react -> jsx-a11y', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [config.configs.react],
 	});

@@ -1,14 +1,14 @@
-import { describe, expect, test } from 'vitest';
-import { fileURLToPath } from 'url';
-import { dirname, resolve } from 'path';
+import { ESLint } from 'eslint';
 import { readFileSync } from 'fs';
-import pkg from 'eslint/use-at-your-own-risk';
+import { dirname, resolve } from 'path';
+import { fileURLToPath } from 'url';
+import { describe, expect, test } from 'vitest';
 import config from '../src/index.js';
 
 const modulePath = dirname(fileURLToPath(import.meta.url));
 
 describe('recommended -> eslint recommended', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [config.configs.recommended],
 	});
@@ -48,7 +48,7 @@ describe('recommended -> eslint recommended', () => {
 		'no-loss-of-precision',
 		'no-misleading-character-class',
 		'no-mixed-spaces-and-tabs',
-		'no-new-symbol',
+		'no-new-native-nonconstructor',
 		'no-nonoctal-decimal-escape',
 		'no-obj-calls',
 		'no-octal',
@@ -137,7 +137,7 @@ describe('recommended -> eslint recommended', () => {
 ////////////////////////////////////////////////////////////////////////////////
 
 describe('recommended -> prettier recommended', () => {
-	const cli = new pkg.FlatESLint({
+	const cli = new ESLint({
 		overrideConfigFile: true,
 		overrideConfig: [config.configs.recommended],
 	});

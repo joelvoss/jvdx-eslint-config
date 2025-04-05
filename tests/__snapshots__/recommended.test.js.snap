@@ -109,6 +109,20 @@ exports[`recommended -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "VariableDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            31,
+            54,
+          ],
+          "text": "{ let x = 1;
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -120,6 +134,20 @@ exports[`recommended -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "VariableDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            71,
+            96,
+          ],
+          "text": "{ const y = 2;
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -131,6 +159,20 @@ exports[`recommended -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "FunctionDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            113,
+            141,
+          ],
+          "text": "{ function f() {}
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -142,6 +184,19 @@ exports[`recommended -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "ClassDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            159,
+            169,
+          ],
+          "text": "{ class C {} }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
 ]
 `;
@@ -1486,8 +1541,8 @@ exports[`recommended -> eslint recommended > no-loss-of-precision 1`] = `
 exports[`recommended -> eslint recommended > no-misleading-character-class 1`] = `
 [
   {
-    "column": 1,
-    "endColumn": 10,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 1,
     "line": 1,
     "message": "Unexpected combined character in character class.",
@@ -1497,8 +1552,8 @@ exports[`recommended -> eslint recommended > no-misleading-character-class 1`] =
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 10,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 2,
     "line": 2,
     "message": "Unexpected combined character in character class.",
@@ -1508,8 +1563,8 @@ exports[`recommended -> eslint recommended > no-misleading-character-class 1`] =
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 12,
+    "column": 4,
+    "endColumn": 8,
     "endLine": 3,
     "line": 3,
     "message": "Unexpected modified Emoji in character class.",
@@ -1519,8 +1574,8 @@ exports[`recommended -> eslint recommended > no-misleading-character-class 1`] =
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 12,
+    "column": 4,
+    "endColumn": 8,
     "endLine": 4,
     "line": 4,
     "message": "Unexpected national flag in character class.",
@@ -1530,8 +1585,8 @@ exports[`recommended -> eslint recommended > no-misleading-character-class 1`] =
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 16,
+    "column": 4,
+    "endColumn": 12,
     "endLine": 5,
     "line": 5,
     "message": "Unexpected joined character sequence in character class.",
@@ -1541,8 +1596,8 @@ exports[`recommended -> eslint recommended > no-misleading-character-class 1`] =
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 9,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 6,
     "line": 6,
     "message": "Unexpected surrogate pair in character class. Use 'u' flag.",
@@ -1575,17 +1630,28 @@ exports[`recommended -> eslint recommended > no-mixed-spaces-and-tabs 1`] = `
 ]
 `;
 
-exports[`recommended -> eslint recommended > no-new-symbol 1`] = `
+exports[`recommended -> eslint recommended > no-new-native-nonconstructor 1`] = `
 [
   {
-    "column": 15,
-    "endColumn": 21,
+    "column": 17,
+    "endColumn": 23,
     "endLine": 1,
     "line": 1,
     "message": "\`Symbol\` cannot be called as a constructor.",
-    "messageId": "noNewSymbol",
+    "messageId": "noNewNonconstructor",
     "nodeType": "Identifier",
-    "ruleId": "no-new-symbol",
+    "ruleId": "no-new-native-nonconstructor",
+    "severity": 2,
+  },
+  {
+    "column": 17,
+    "endColumn": 23,
+    "endLine": 2,
+    "line": 2,
+    "message": "\`BigInt\` cannot be called as a constructor.",
+    "messageId": "noNewNonconstructor",
+    "nodeType": "Identifier",
+    "ruleId": "no-new-native-nonconstructor",
     "severity": 2,
   },
 ]
@@ -2082,8 +2148,8 @@ exports[`recommended -> eslint recommended > no-shadow-restricted-names 1`] = `
 exports[`recommended -> eslint recommended > no-sparse-arrays 1`] = `
 [
   {
-    "column": 13,
-    "endColumn": 16,
+    "column": 14,
+    "endColumn": 15,
     "endLine": 1,
     "line": 1,
     "message": "Unexpected comma in middle of array.",
@@ -2093,8 +2159,8 @@ exports[`recommended -> eslint recommended > no-sparse-arrays 1`] = `
     "severity": 2,
   },
   {
-    "column": 14,
-    "endColumn": 32,
+    "column": 22,
+    "endColumn": 23,
     "endLine": 2,
     "line": 2,
     "message": "Unexpected comma in middle of array.",
@@ -2698,6 +2764,22 @@ exports[`recommended -> eslint recommended > no-unused-vars 1`] = `
     "nodeType": "Identifier",
     "ruleId": "no-unused-vars",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "varName": "x",
+        },
+        "desc": "Remove unused variable 'x'.",
+        "fix": {
+          "range": [
+            73,
+            79,
+          ],
+          "text": "",
+        },
+        "messageId": "removeVar",
+      },
+    ],
   },
   {
     "column": 1,
@@ -2731,6 +2813,22 @@ exports[`recommended -> eslint recommended > no-unused-vars 1`] = `
     "nodeType": "Identifier",
     "ruleId": "no-unused-vars",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "varName": "foo",
+        },
+        "desc": "Remove unused variable 'foo'.",
+        "fix": {
+          "range": [
+            300,
+            303,
+          ],
+          "text": "",
+        },
+        "messageId": "removeVar",
+      },
+    ],
   },
   {
     "column": 10,
@@ -2742,6 +2840,22 @@ exports[`recommended -> eslint recommended > no-unused-vars 1`] = `
     "nodeType": "Identifier",
     "ruleId": "no-unused-vars",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "varName": "fact",
+        },
+        "desc": "Remove unused variable 'fact'.",
+        "fix": {
+          "range": [
+            379,
+            452,
+          ],
+          "text": "",
+        },
+        "messageId": "removeVar",
+      },
+    ],
   },
   {
     "column": 16,
@@ -2753,6 +2867,22 @@ exports[`recommended -> eslint recommended > no-unused-vars 1`] = `
     "nodeType": "Identifier",
     "ruleId": "no-unused-vars",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "varName": "x",
+        },
+        "desc": "Remove unused variable 'x'.",
+        "fix": {
+          "range": [
+            573,
+            574,
+          ],
+          "text": "",
+        },
+        "messageId": "removeVar",
+      },
+    ],
   },
 ]
 `;
@@ -3410,6 +3540,30 @@ exports[`recommended -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            4,
+            14,
+          ],
+          "text": "Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            4,
+            14,
+          ],
+          "text": "Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -3421,6 +3575,30 @@ exports[`recommended -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            34,
+            44,
+          ],
+          "text": "!Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            34,
+            44,
+          ],
+          "text": "!Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -3432,6 +3610,30 @@ exports[`recommended -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            64,
+            81,
+          ],
+          "text": "Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            64,
+            81,
+          ],
+          "text": "Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -3443,6 +3645,30 @@ exports[`recommended -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            101,
+            118,
+          ],
+          "text": "!Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            101,
+            118,
+          ],
+          "text": "!Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
 ]
 `;

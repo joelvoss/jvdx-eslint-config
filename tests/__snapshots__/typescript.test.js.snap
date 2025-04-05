@@ -55,6 +55,20 @@ exports[`typescript -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "VariableDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            31,
+            54,
+          ],
+          "text": "{ let x = 1;
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -66,6 +80,20 @@ exports[`typescript -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "VariableDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            71,
+            96,
+          ],
+          "text": "{ const y = 2;
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -77,6 +105,20 @@ exports[`typescript -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "FunctionDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            113,
+            141,
+          ],
+          "text": "{ function f() {}
+      break; }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
   {
     "column": 7,
@@ -88,22 +130,19 @@ exports[`typescript -> eslint recommended > no-case-declarations 1`] = `
     "nodeType": "ClassDeclaration",
     "ruleId": "no-case-declarations",
     "severity": 2,
-  },
-]
-`;
-
-exports[`typescript -> eslint recommended > no-class-assign 1`] = `
-[
-  {
-    "column": 1,
-    "endColumn": 2,
-    "endLine": 2,
-    "line": 2,
-    "message": "'A' is a class.",
-    "messageId": "class",
-    "nodeType": "Identifier",
-    "ruleId": "no-class-assign",
-    "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Add {} brackets around the case block.",
+        "fix": {
+          "range": [
+            159,
+            169,
+          ],
+          "text": "{ class C {} }",
+        },
+        "messageId": "addBrackets",
+      },
+    ],
   },
 ]
 `;
@@ -1036,55 +1075,6 @@ exports[`typescript -> eslint recommended > no-global-assign 1`] = `
 ]
 `;
 
-exports[`typescript -> eslint recommended > no-inner-declarations 1`] = `
-[
-  {
-    "column": 3,
-    "endColumn": 29,
-    "endLine": 2,
-    "line": 2,
-    "message": "Move function declaration to program root.",
-    "messageId": "moveDeclToRoot",
-    "nodeType": "FunctionDeclaration",
-    "ruleId": "no-inner-declarations",
-    "severity": 2,
-  },
-  {
-    "column": 7,
-    "endColumn": 36,
-    "endLine": 7,
-    "line": 7,
-    "message": "Move function declaration to function body root.",
-    "messageId": "moveDeclToRoot",
-    "nodeType": "FunctionDeclaration",
-    "ruleId": "no-inner-declarations",
-    "severity": 2,
-  },
-  {
-    "column": 10,
-    "endColumn": 24,
-    "endLine": 11,
-    "line": 11,
-    "message": "Move function declaration to program root.",
-    "messageId": "moveDeclToRoot",
-    "nodeType": "FunctionDeclaration",
-    "ruleId": "no-inner-declarations",
-    "severity": 2,
-  },
-  {
-    "column": 11,
-    "endColumn": 37,
-    "endLine": 16,
-    "line": 16,
-    "message": "Move function declaration to class static block body root.",
-    "messageId": "moveDeclToRoot",
-    "nodeType": "FunctionDeclaration",
-    "ruleId": "no-inner-declarations",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`typescript -> eslint recommended > no-invalid-regexp 1`] = `
 [
   {
@@ -1164,8 +1154,8 @@ exports[`typescript -> eslint recommended > no-irregular-whitespace 1`] = `
 exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = `
 [
   {
-    "column": 1,
-    "endColumn": 10,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 1,
     "line": 1,
     "message": "Unexpected combined character in character class.",
@@ -1175,8 +1165,8 @@ exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = 
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 10,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 2,
     "line": 2,
     "message": "Unexpected combined character in character class.",
@@ -1186,8 +1176,8 @@ exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = 
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 12,
+    "column": 4,
+    "endColumn": 8,
     "endLine": 3,
     "line": 3,
     "message": "Unexpected modified Emoji in character class.",
@@ -1197,8 +1187,8 @@ exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = 
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 12,
+    "column": 4,
+    "endColumn": 8,
     "endLine": 4,
     "line": 4,
     "message": "Unexpected national flag in character class.",
@@ -1208,8 +1198,8 @@ exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = 
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 16,
+    "column": 4,
+    "endColumn": 12,
     "endLine": 5,
     "line": 5,
     "message": "Unexpected joined character sequence in character class.",
@@ -1219,8 +1209,8 @@ exports[`typescript -> eslint recommended > no-misleading-character-class 1`] = 
     "severity": 2,
   },
   {
-    "column": 1,
-    "endColumn": 9,
+    "column": 4,
+    "endColumn": 6,
     "endLine": 6,
     "line": 6,
     "message": "Unexpected surrogate pair in character class. Use 'u' flag.",
@@ -1534,8 +1524,8 @@ exports[`typescript -> eslint recommended > no-shadow-restricted-names 1`] = `
 exports[`typescript -> eslint recommended > no-sparse-arrays 1`] = `
 [
   {
-    "column": 13,
-    "endColumn": 16,
+    "column": 14,
+    "endColumn": 15,
     "endLine": 1,
     "line": 1,
     "message": "Unexpected comma in middle of array.",
@@ -1545,8 +1535,8 @@ exports[`typescript -> eslint recommended > no-sparse-arrays 1`] = `
     "severity": 2,
   },
   {
-    "column": 14,
-    "endColumn": 32,
+    "column": 22,
+    "endColumn": 23,
     "endLine": 2,
     "line": 2,
     "message": "Unexpected comma in middle of array.",
@@ -2554,22 +2544,6 @@ exports[`typescript -> eslint recommended > no-var 1`] = `
 ]
 `;
 
-exports[`typescript -> eslint recommended > no-with 1`] = `
-[
-  {
-    "column": 1,
-    "endColumn": 2,
-    "endLine": 3,
-    "line": 1,
-    "message": "Unexpected use of 'with' statement.",
-    "messageId": "unexpectedWith",
-    "nodeType": "WithStatement",
-    "ruleId": "no-with",
-    "severity": 2,
-  },
-]
-`;
-
 exports[`typescript -> eslint recommended > prefer-rest-params 1`] = `
 [
   {
@@ -2674,6 +2648,30 @@ exports[`typescript -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            4,
+            14,
+          ],
+          "text": "Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            4,
+            14,
+          ],
+          "text": "Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -2685,6 +2683,30 @@ exports[`typescript -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            34,
+            44,
+          ],
+          "text": "!Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            34,
+            44,
+          ],
+          "text": "!Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -2696,6 +2718,30 @@ exports[`typescript -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            64,
+            81,
+          ],
+          "text": "Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            64,
+            81,
+          ],
+          "text": "Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
   {
     "column": 5,
@@ -2707,6 +2753,30 @@ exports[`typescript -> eslint recommended > use-isnan 1`] = `
     "nodeType": "BinaryExpression",
     "ruleId": "use-isnan",
     "severity": 2,
+    "suggestions": [
+      {
+        "desc": "Replace with Number.isNaN.",
+        "fix": {
+          "range": [
+            101,
+            118,
+          ],
+          "text": "!Number.isNaN(foo)",
+        },
+        "messageId": "replaceWithIsNaN",
+      },
+      {
+        "desc": "Replace with Number.isNaN and cast to a Number.",
+        "fix": {
+          "range": [
+            101,
+            118,
+          ],
+          "text": "!Number.isNaN(Number(foo))",
+        },
+        "messageId": "replaceWithCastingAndIsNaN",
+      },
+    ],
   },
 ]
 `;
