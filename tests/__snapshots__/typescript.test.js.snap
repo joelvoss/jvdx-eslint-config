@@ -585,7 +585,7 @@ exports[`typescript -> eslint recommended > no-empty 1`] = `
     ],
   },
   {
-    "column": 1,
+    "column": 13,
     "endColumn": 2,
     "endLine": 8,
     "line": 7,
@@ -594,6 +594,22 @@ exports[`typescript -> eslint recommended > no-empty 1`] = `
     "nodeType": "SwitchStatement",
     "ruleId": "no-empty",
     "severity": 2,
+    "suggestions": [
+      {
+        "data": {
+          "type": "switch",
+        },
+        "desc": "Add comment inside empty switch statement.",
+        "fix": {
+          "range": [
+            44,
+            45,
+          ],
+          "text": " /* empty */ ",
+        },
+        "messageId": "suggestComment",
+      },
+    ],
   },
   {
     "column": 13,
