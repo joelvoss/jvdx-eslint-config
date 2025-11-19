@@ -4,12 +4,12 @@ exports[`typescript -> eslint recommended > for-direction 1`] = `
 [
   {
     "column": 3,
-    "endColumn": 4,
-    "endLine": 4,
+    "endColumn": 32,
+    "endLine": 2,
     "line": 2,
     "message": "The update clause in this loop moves the variable in the wrong direction.",
     "messageId": "incorrectDirection",
-    "nodeType": "ForStatement",
+    "nodeType": null,
     "ruleId": "for-direction",
     "severity": 2,
   },
