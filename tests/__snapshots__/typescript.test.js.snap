@@ -1132,8 +1132,8 @@ exports[`typescript -> eslint recommended > no-invalid-regexp 1`] = `
 exports[`typescript -> eslint recommended > no-irregular-whitespace 1`] = `
 [
   {
-    "column": 21,
-    "endColumn": 22,
+    "column": 22,
+    "endColumn": 23,
     "endLine": 13,
     "line": 13,
     "message": "Irregular whitespace not allowed.",
@@ -1156,8 +1156,8 @@ exports[`typescript -> eslint recommended > no-irregular-whitespace 1`] = `
   {
     "column": 19,
     "endColumn": 20,
-    "endLine": 39,
-    "line": 39,
+    "endLine": 38,
+    "line": 38,
     "message": "Irregular whitespace not allowed.",
     "messageId": "noIrregularWhitespace",
     "nodeType": "Program",

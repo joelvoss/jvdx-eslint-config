@@ -2,27 +2,27 @@ var thing = function() /*<NBSP>*/{
   return 'test';
 }
 
-var thing = function( /*<NBSP>*/){
+var thing2 = function( /*<NBSP>*/){
   return 'test';
 }
 
-var thing = function /*<NBSP>*/(){
+var thing3 = function /*<NBSP>*/(){
   return 'test';
 }
 
-var thing = function /*<Ogham Space Mark>*/(){
+var thing4 = function /*<Ogham Space Mark>*/(){
   return 'test';
 }
 
-var thing = function() {
+var thing5 = function() {
   return 'test'; /*<ENSP>*/
 }
 
-var thing = function() {
+var thing6 = function() {
   return 'test'; /*<NBSP>*/
 }
 
-var thing = function() {
+var thing7 = function() {
   // Description <NBSP>: some descriptive text
 }
 
@@ -30,11 +30,10 @@ var thing = function() {
 Description <NBSP>: some descriptive text
 */
 
-var thing = function() {
+var thing8 = function() {
   return / <NBSP>regexp/;
 }
 
-/*eslint-env es6*/
-var thing = function() {
+var thing9 = function() {
   return `template <NBSP>string`;
 }
