@@ -34,7 +34,6 @@ var thing = function() {
   return / <NBSP>regexp/;
 }
 
-/*eslint-env es6*/
 var thing = function() {
   return `template <NBSP>string`;
 }
